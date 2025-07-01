@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "Soils_test",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -123.43041586270176,
+          48.344544542978085
+        ],
+        [
+          -121.95861610120033,
+          48.344544542978085
+        ],
+        [
+          -121.95861610120033,
+          49.31340168978564
+        ],
+        [
+          -123.43041586270176,
+          49.31340168978564
+        ],
+        [
+          -123.43041586270176,
+          48.344544542978085
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -123.43041586270176,
+    48.344544542978085,
+    -121.95861610120033,
+    49.31340168978564
+  ],
+  "properties": {
+    "proj:epsg": 3857,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -13740211.042237958,
+            6164367.383502243
+          ],
+          [
+            -13576371.042237958,
+            6164367.383502243
+          ],
+          [
+            -13576371.042237958,
+            6328207.383502243
+          ],
+          [
+            -13740211.042237958,
+            6328207.383502243
+          ],
+          [
+            -13740211.042237958,
+            6164367.383502243
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -13740211.042237958,
+      6164367.383502243,
+      -13576371.042237958,
+      6328207.383502243
+    ],
+    "proj:shape": [
+      65536,
+      65536
+    ],
+    "proj:transform": [
+      2.5,
+      0.0,
+      -13740211.042237958,
+      0.0,
+      -2.5,
+      6328207.383502243,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-07-01T22:49:55.334000Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Soils_test/Soils_test.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "gs://swhm_data/public/layers/Soils_test/Soils_test.tif",
+      "type": "image/vnd.stac.geotiff; cloud-optimized=true",
+      "roles": []
+    }
+  }
+}

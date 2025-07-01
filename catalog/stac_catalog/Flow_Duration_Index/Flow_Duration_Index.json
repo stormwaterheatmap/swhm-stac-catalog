@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "Flow_Duration_Index",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -124.90220626162031,
+          46.5930305799689
+        ],
+        [
+          -120.65454183875653,
+          46.5930305799689
+        ],
+        [
+          -120.65454183875653,
+          49.31339481416045
+        ],
+        [
+          -124.90220626162031,
+          49.31339481416045
+        ],
+        [
+          -124.90220626162031,
+          46.5930305799689
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -124.90220626162031,
+    46.5930305799689,
+    -120.65454183875653,
+    49.31339481416045
+  ],
+  "properties": {
+    "proj:epsg": 3857,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -13904050.0,
+            5875897.4638424665
+          ],
+          [
+            -13431202.159386098,
+            5875897.4638424665
+          ],
+          [
+            -13431202.159386098,
+            6328206.209447447
+          ],
+          [
+            -13904050.0,
+            6328206.209447447
+          ],
+          [
+            -13904050.0,
+            5875897.4638424665
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -13904050.0,
+      5875897.4638424665,
+      -13431202.159386098,
+      6328206.209447447
+    ],
+    "proj:shape": [
+      77627,
+      81152
+    ],
+    "proj:transform": [
+      5.826693619552227,
+      0.0,
+      -13904050.0,
+      0.0,
+      -5.826693619552227,
+      6328206.209447447,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-07-01T22:49:50.452000Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Flow_Duration_Index/Flow_Duration_Index.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "gs://swhm_data/public/layers/Flow_Duration_Index/Flow_Duration_Index.tif",
+      "type": "image/vnd.stac.geotiff; cloud-optimized=true",
+      "roles": []
+    }
+  }
+}

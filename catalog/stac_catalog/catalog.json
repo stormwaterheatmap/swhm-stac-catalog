@@ -1,0 +1,123 @@
+{
+  "type": "Catalog",
+  "id": "test-catalog",
+  "stac_version": "1.1.0",
+  "description": "Tutorial catalog.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Age_of_Imperviousness/Age_of_Imperviousness.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Flow_Duration_Index/Flow_Duration_Index.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/HSPF_Land_Cover_Type/HSPF_Land_Cover_Type.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Hydrologic_Response_Units/Hydrologic_Response_Units.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Imperviousness/Imperviousness.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Land_Cover/Land_Cover.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Land_Use/Land_Use.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Population_Density/Population_Density.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Precipitation_mm/Precipitation_mm.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Runoff_mm/Runoff_mm.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Slope/Slope.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Slope_Categories/Slope_Categories.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Soils/Soils.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Soils_test/Soils_test.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Total_Copper_Concentration/Total_Copper_Concentration.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Total_Kjeldahl_Nitrogen_Concentration/Total_Kjeldahl_Nitrogen_Concentration.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Total_Phosphorus_Concentration/Total_Phosphorus_Concentration.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Total_Suspended_Solids_Concentration/Total_Suspended_Solids_Concentration.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Total_Zinc_Concentration/Total_Zinc_Concentration.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Traffic/Traffic.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/copper_concentration_ug_per_L/copper_concentration_ug_per_L.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    }
+  ]
+}

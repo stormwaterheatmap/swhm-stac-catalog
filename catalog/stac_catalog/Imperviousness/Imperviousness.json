@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "Imperviousness",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -124.90220799704598,
+          46.593055160526625
+        ],
+        [
+          -120.6545870581567,
+          46.593055160526625
+        ],
+        [
+          -120.6545870581567,
+          49.31339619823345
+        ],
+        [
+          -124.90220799704598,
+          49.31339619823345
+        ],
+        [
+          -124.90220799704598,
+          46.593055160526625
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -124.90220799704598,
+    46.593055160526625,
+    -120.6545870581567,
+    49.31339619823345
+  ],
+  "properties": {
+    "proj:epsg": 3857,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -13904050.1931867,
+            5875901.445786312
+          ],
+          [
+            -13431207.1931867,
+            5875901.445786312
+          ],
+          [
+            -13431207.1931867,
+            6328206.445786312
+          ],
+          [
+            -13904050.1931867,
+            6328206.445786312
+          ],
+          [
+            -13904050.1931867,
+            5875901.445786312
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -13904050.1931867,
+      5875901.445786312,
+      -13431207.1931867,
+      6328206.445786312
+    ],
+    "proj:shape": [
+      452305,
+      472843
+    ],
+    "proj:transform": [
+      0.9999999999999999,
+      0.0,
+      -13904050.1931867,
+      0.0,
+      -0.9999999999999999,
+      6328206.445786312,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-07-01T22:49:51.749000Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Imperviousness/Imperviousness.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "gs://swhm_data/public/layers/Imperviousness/Imperviousness.tif",
+      "type": "image/vnd.stac.geotiff; cloud-optimized=true",
+      "roles": []
+    }
+  }
+}

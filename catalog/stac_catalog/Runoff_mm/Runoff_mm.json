@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "Runoff_mm",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -124.90220626162032,
+          46.59305358871984
+        ],
+        [
+          -120.65456735642537,
+          46.59305358871984
+        ],
+        [
+          -120.65456735642537,
+          49.31342176361898
+        ],
+        [
+          -124.90220626162032,
+          49.31342176361898
+        ],
+        [
+          -124.90220626162032,
+          46.59305358871984
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -124.90220626162032,
+    46.59305358871984,
+    -120.65456735642537,
+    49.31342176361898
+  ],
+  "properties": {
+    "proj:epsg": 4326,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -124.90220626162032,
+            46.59305358871984
+          ],
+          [
+            -120.65456735642537,
+            46.59305358871984
+          ],
+          [
+            -120.65456735642537,
+            49.31342176361898
+          ],
+          [
+            -124.90220626162032,
+            49.31342176361898
+          ],
+          [
+            -124.90220626162032,
+            46.59305358871984
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -124.90220626162032,
+      46.59305358871984,
+      -120.65456735642537,
+      49.31342176361898
+    ],
+    "proj:shape": [
+      60566,
+      94569
+    ],
+    "proj:transform": [
+      4.491576420597606e-05,
+      0.0,
+      -124.90220626162032,
+      0.0,
+      -4.491576420597606e-05,
+      49.31342176361898,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-07-01T22:49:53.825000Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Runoff_mm/Runoff_mm.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "gs://swhm_data/public/layers/Runoff_mm/Runoff_mm.tif",
+      "type": "image/vnd.stac.geotiff; cloud-optimized=true",
+      "roles": []
+    }
+  }
+}

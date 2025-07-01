@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+  ],
+  "id": "Age_of_Imperviousness",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -124.90220934094849,
+          46.593025643946405
+        ],
+        [
+          -120.65457043575353,
+          46.593025643946405
+        ],
+        [
+          -120.65457043575353,
+          49.313397477497546
+        ],
+        [
+          -124.90220934094849,
+          49.313397477497546
+        ],
+        [
+          -124.90220934094849,
+          46.593025643946405
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -124.90220934094849,
+    46.593025643946405,
+    -120.65457043575353,
+    49.313397477497546
+  ],
+  "properties": {
+    "proj:epsg": 3857,
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -13904050.342789244,
+            5875896.664228426
+          ],
+          [
+            -13431205.342789244,
+            5875896.664228426
+          ],
+          [
+            -13431205.342789244,
+            6328206.664228426
+          ],
+          [
+            -13904050.342789244,
+            6328206.664228426
+          ],
+          [
+            -13904050.342789244,
+            5875896.664228426
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      -13904050.342789244,
+      5875896.664228426,
+      -13431205.342789244,
+      6328206.664228426
+    ],
+    "proj:shape": [
+      30154,
+      31523
+    ],
+    "proj:transform": [
+      15.0,
+      0.0,
+      -13904050.342789244,
+      0.0,
+      -15.0,
+      6328206.664228426,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "datetime": "2025-07-01T22:49:50.046000Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/Age_of_Imperviousness/Age_of_Imperviousness.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "gs://swhm_data/public/layers/Age_of_Imperviousness/Age_of_Imperviousness.tif",
+      "type": "image/vnd.stac.geotiff; cloud-optimized=true",
+      "roles": []
+    }
+  }
+}
