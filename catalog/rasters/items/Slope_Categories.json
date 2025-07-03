@@ -1,0 +1,83 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Slope_Categories",
+  "properties": {
+    "title": "Slope Categories",
+    "description": "Raster dataset: Slope_Categories",
+    "datetime": "2025-07-02T20:34:44.023394",
+    "created": "2025-07-02T16:09:17.773000+00:00",
+    "updated": "2025-07-02T16:09:17.773000+00:00",
+    "providers": [
+      {
+        "name": "SWHM Data",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm_data/"
+      }
+    ]
+  },
+  "geometry": null,
+  "bbox": null,
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Slope_Categories/Slope_Categories.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "GeoTIFF data",
+      "description": "Raster data in GeoTIFF format",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1162360741,
+      "file:checksum": "14rJoVBBo6xBaDiF0JJ0dg=="
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Slope_Categories/Slope_Categories.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    },
+    "metadata": {
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Slope_Categories/Slope_Categories_metadata.json",
+      "type": "application/json",
+      "title": "Metadata",
+      "description": "Additional metadata for this dataset",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Slope_Categories/Slope_Categories_thumbnail.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "description": "Thumbnail image",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "./Slope_Categories.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ]
+}

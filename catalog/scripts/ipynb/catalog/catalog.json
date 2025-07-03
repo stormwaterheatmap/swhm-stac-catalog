@@ -1,0 +1,69 @@
+{
+  "type": "Catalog",
+  "id": "swhm-data-catalog",
+  "title": "SWHM Data Catalog",
+  "description": "Master catalog for SWHM vector and raster datasets",
+  "stac_version": "1.0.0",
+  "created": "2025-07-02T18:20:54.313668",
+  "updated": "2025-07-02T18:20:54.313676",
+  "keywords": [
+    "swhm",
+    "vectors",
+    "rasters",
+    "geospatial"
+  ],
+  "providers": [
+    {
+      "name": "SWHM Data",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/swhm_data/"
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "SWHM Data Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./vectors/collection.json",
+      "type": "application/json",
+      "title": "Vector Collection"
+    },
+    {
+      "rel": "child",
+      "href": "./rasters/collection.json",
+      "type": "application/json",
+      "title": "Raster Collection"
+    }
+  ],
+  "collections": [
+    {
+      "id": "swhm-vectors",
+      "title": "SWHM Vector Collection",
+      "description": "Collection of vector datasets from SWHM data bucket",
+      "href": "./vectors/collection.json"
+    },
+    {
+      "id": "swhm-rasters",
+      "title": "SWHM Raster Collection",
+      "description": "Collection of raster datasets from SWHM data bucket",
+      "href": "./rasters/collection.json"
+    }
+  ],
+  "summaries": {
+    "total_items": 25,
+    "vector_items": 5,
+    "raster_items": 20,
+    "formats": [
+      "GeoJSON",
+      "GeoTIFF"
+    ]
+  }
+}

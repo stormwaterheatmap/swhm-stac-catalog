@@ -1,0 +1,114 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "swhm-vectors",
+  "title": "SWHM Vector Collection",
+  "description": "Collection of vector datasets from SWHM data bucket",
+  "keywords": [
+    "vectors",
+    "geojson",
+    "swhm"
+  ],
+  "license": "proprietary",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "providers": [
+    {
+      "name": "SWHM Data",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/swhm_data/"
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "./collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./items/PugetSoundWA.json",
+      "type": "application/json",
+      "title": "Pugetsoundwa"
+    },
+    {
+      "rel": "item",
+      "href": "./items/PugetSoundWA.json",
+      "type": "application/json",
+      "title": "Pugetsoundwa"
+    },
+    {
+      "rel": "item",
+      "href": "./items/cig_grid_wgs.json",
+      "type": "application/json",
+      "title": "Cig Grid Wgs"
+    },
+    {
+      "rel": "item",
+      "href": "./items/cig_grid_wgs.json",
+      "type": "application/json",
+      "title": "Cig Grid Wgs"
+    },
+    {
+      "rel": "item",
+      "href": "./items/collection.json",
+      "type": "application/json",
+      "title": "Collection"
+    }
+  ],
+  "item_assets": {
+    "data": {
+      "type": "application/geo+json",
+      "title": "GeoJSON data",
+      "roles": [
+        "data"
+      ]
+    },
+    "metadata": {
+      "type": "application/json",
+      "title": "Metadata",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "type": "image/png",
+      "title": "Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

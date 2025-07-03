@@ -1,0 +1,525 @@
+{
+  "type": "Collection",
+  "id": "swhm-rasters",
+  "title": "SWHM Raster Collection",
+  "description": "Collection of raster datasets from SWHM data bucket",
+  "keywords": [
+    "rasters",
+    "geotiff",
+    "swhm"
+  ],
+  "license": "proprietary",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "providers": [
+    {
+      "name": "SWHM Data",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/swhm_data/"
+    }
+  ],
+  "items": [
+    {
+      "type": "Feature",
+      "id": "Age_of_Imperviousness",
+      "properties": {
+        "title": "Age Of Imperviousness",
+        "description": "Raster dataset: Age_of_Imperviousness",
+        "created": "2025-07-02T18:20:54.235137",
+        "updated": "2025-07-02T18:20:54.235137"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Age_of_Imperviousness/Age_of_Imperviousness.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 11861750,
+          "file:checksum": "LPPLq3xaCtJfgHfL9rlVkQ=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Flow_Duration_Index",
+      "properties": {
+        "title": "Flow Duration Index",
+        "description": "Raster dataset: Flow_Duration_Index",
+        "created": "2025-07-02T18:20:54.235298",
+        "updated": "2025-07-02T18:20:54.235298"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Flow_Duration_Index/Flow_Duration_Index.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 2462802183,
+          "file:checksum": "FU76chTVAYkh+aspkIvnlQ=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HSPF_Land_Cover_Type",
+      "properties": {
+        "title": "Hspf Land Cover Type",
+        "description": "Raster dataset: HSPF_Land_Cover_Type",
+        "created": "2025-07-02T18:20:54.235368",
+        "updated": "2025-07-02T18:20:54.235368"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/HSPF_Land_Cover_Type/HSPF_Land_Cover_Type.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 789553258,
+          "file:checksum": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Hydrologic_Response_Units",
+      "properties": {
+        "title": "Hydrologic Response Units",
+        "description": "Raster dataset: Hydrologic_Response_Units",
+        "created": "2025-07-02T18:20:54.235433",
+        "updated": "2025-07-02T18:20:54.235433"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Hydrologic_Response_Units/Hydrologic_Response_Units.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 1067170878,
+          "file:checksum": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Imperviousness",
+      "properties": {
+        "title": "Imperviousness",
+        "description": "Raster dataset: Imperviousness",
+        "created": "2025-07-02T18:20:54.235516",
+        "updated": "2025-07-02T18:20:54.235516"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Imperviousness/Imperviousness.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 14816117190,
+          "file:checksum": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Land_Cover",
+      "properties": {
+        "title": "Land Cover",
+        "description": "Raster dataset: Land_Cover",
+        "created": "2025-07-02T18:20:54.235570",
+        "updated": "2025-07-02T18:20:54.235570"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Land_Cover/Land_Cover.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 2603697773,
+          "file:checksum": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Land_Use",
+      "properties": {
+        "title": "Land Use",
+        "description": "Raster dataset: Land_Use",
+        "created": "2025-07-02T18:20:54.235626",
+        "updated": "2025-07-02T18:20:54.235626"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Land_Use/Land_Use.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 292776614,
+          "file:checksum": "NiT/WuZVgTQgu/DNktpeAg=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Population_Density",
+      "properties": {
+        "title": "Population Density",
+        "description": "Raster dataset: Population_Density",
+        "created": "2025-07-02T18:20:54.235699",
+        "updated": "2025-07-02T18:20:54.235699"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Population_Density/Population_Density.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 11961723,
+          "file:checksum": "SStpcZl0ieyOQ3fu96U8tg=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Precipitation_mm",
+      "properties": {
+        "title": "Precipitation Mm",
+        "description": "Raster dataset: Precipitation_mm",
+        "created": "2025-07-02T18:20:54.235753",
+        "updated": "2025-07-02T18:20:54.235753"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Precipitation_mm/Precipitation_mm.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 184853,
+          "file:checksum": "SdfJ3o+QTi3Q9zVyUnB3eg=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Runoff_mm",
+      "properties": {
+        "title": "Runoff Mm",
+        "description": "Raster dataset: Runoff_mm",
+        "created": "2025-07-02T18:20:54.235812",
+        "updated": "2025-07-02T18:20:54.235812"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Runoff_mm/Runoff_mm.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 5723145271,
+          "file:checksum": "Z0XYBnipMVrt4VKCqxTD/w=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Slope",
+      "properties": {
+        "title": "Slope",
+        "description": "Raster dataset: Slope",
+        "created": "2025-07-02T18:20:54.235882",
+        "updated": "2025-07-02T18:20:54.235882"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Slope/Slope.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 9657033234,
+          "file:checksum": "ESdu/Mz2Bx1y5owE/DzY4Q=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Slope_Categories",
+      "properties": {
+        "title": "Slope Categories",
+        "description": "Raster dataset: Slope_Categories",
+        "created": "2025-07-02T18:20:54.235954",
+        "updated": "2025-07-02T18:20:54.235954"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Slope_Categories/Slope_Categories.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 1162360741,
+          "file:checksum": "14rJoVBBo6xBaDiF0JJ0dg=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Soils",
+      "properties": {
+        "title": "Soils",
+        "description": "Raster dataset: Soils",
+        "created": "2025-07-02T18:20:54.236016",
+        "updated": "2025-07-02T18:20:54.236016"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Soils/Soils.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 377864655,
+          "file:checksum": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Total_Copper_Concentration",
+      "properties": {
+        "title": "Total Copper Concentration",
+        "description": "Raster dataset: Total_Copper_Concentration",
+        "created": "2025-07-02T18:20:54.236091",
+        "updated": "2025-07-02T18:20:54.236091"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Total_Copper_Concentration/Total_Copper_Concentration.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 1751254482,
+          "file:checksum": "R6DPd2H6mue/Ccl5ox5yQw=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Total_Kjeldahl_Nitrogen_Concentration",
+      "properties": {
+        "title": "Total Kjeldahl Nitrogen Concentration",
+        "description": "Raster dataset: Total_Kjeldahl_Nitrogen_Concentration",
+        "created": "2025-07-02T18:20:54.236151",
+        "updated": "2025-07-02T18:20:54.236151"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Total_Kjeldahl_Nitrogen_Concentration/Total_Kjeldahl_Nitrogen_Concentration.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 1167714752,
+          "file:checksum": "v/UFLQRzhK9m0vLn5SrFGg=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Total_Phosphorus_Concentration",
+      "properties": {
+        "title": "Total Phosphorus Concentration",
+        "description": "Raster dataset: Total_Phosphorus_Concentration",
+        "created": "2025-07-02T18:20:54.236217",
+        "updated": "2025-07-02T18:20:54.236217"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Total_Phosphorus_Concentration/Total_Phosphorus_Concentration.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 1750395809,
+          "file:checksum": "t4UNBqzoMt/G0+35LYsbBA=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Total_Suspended_Solids_Concentration",
+      "properties": {
+        "title": "Total Suspended Solids Concentration",
+        "description": "Raster dataset: Total_Suspended_Solids_Concentration",
+        "created": "2025-07-02T18:20:54.236288",
+        "updated": "2025-07-02T18:20:54.236288"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Total_Suspended_Solids_Concentration/Total_Suspended_Solids_Concentration.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 1185797094,
+          "file:checksum": "9nibBDGImHP+Bf2tWtwu0w=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Total_Zinc_Concentration",
+      "properties": {
+        "title": "Total Zinc Concentration",
+        "description": "Raster dataset: Total_Zinc_Concentration",
+        "created": "2025-07-02T18:20:54.236350",
+        "updated": "2025-07-02T18:20:54.236350"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Total_Zinc_Concentration/Total_Zinc_Concentration.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 1335807449,
+          "file:checksum": "gEaKk/f+l5bm73JpdLbEOQ=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "Traffic",
+      "properties": {
+        "title": "Traffic",
+        "description": "Raster dataset: Traffic",
+        "created": "2025-07-02T18:20:54.236406",
+        "updated": "2025-07-02T18:20:54.236406"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Traffic/Traffic.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 2055252928,
+          "file:checksum": "H6kt5a7DXu7CU7bb7gYoTg=="
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copper_concentration_ug_per_L",
+      "properties": {
+        "title": "Copper Concentration Ug Per L",
+        "description": "Raster dataset: copper_concentration_ug_per_L",
+        "created": "2025-07-02T18:20:54.236462",
+        "updated": "2025-07-02T18:20:54.236462"
+      },
+      "geometry": null,
+      "bbox": null,
+      "assets": {
+        "data": {
+          "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/copper_concentration_ug_per_L/copper_concentration_ug_per_L.tif",
+          "type": "image/tiff; application=geotiff",
+          "title": "GeoTIFF data",
+          "roles": [
+            "data"
+          ],
+          "file:size": 8159008104,
+          "file:checksum": null
+        }
+      }
+    }
+  ]
+}

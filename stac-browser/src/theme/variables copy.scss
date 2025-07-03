@@ -15,14 +15,8 @@ $body-color: black;
 
 // Colors
 $theme-colors: (
-  "primary":       #3da237,
-  "primary-dark":  #379231,
-  "primary-darker":#348a2f,
-  "primary-darkest":#2b7126,
-  "primary-light": #43b23d,
-  "primary-lighter":#0a1b09,
-  "primary-lightest":#5bc555,
-  "secondary":     #3c3c3c,
+  "primary":       #188191,
+  "secondary":     #6c757d,
   "success":       #28a745,
   "info":          #09B3AD,
   "warning":       #ffc107,
@@ -30,7 +24,6 @@ $theme-colors: (
   "light":         #f8f9fa,
   "dark":          #343a40
 );
-
 
 // Breakpoints for responsive design
 $grid-breakpoints: (
@@ -72,6 +65,7 @@ $block-margin: 1rem;
 
 // Margin at the top of the page (for a custom header)
 $header-margin: 0px;
+
 
 // Border radius
 $border-radius: 0.25rem;
