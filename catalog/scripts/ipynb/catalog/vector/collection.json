@@ -1,0 +1,82 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "swhm-vector",
+  "title": "SWHM Vector Collection",
+  "description": "Collection of vector datasets from SWHM data bucket",
+  "keywords": [
+    "vector",
+    "geojson",
+    "swhm"
+  ],
+  "license": "proprietary",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "providers": [
+    {
+      "name": "SWHM Data",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/swhm_data/"
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/vector/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/vector/PugetSoundWA/PugetSoundWA.json",
+      "type": "application/json",
+      "title": "Pugetsoundwa"
+    },
+    {
+      "rel": "item",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/vector/cig_grid_wgs/cig_grid_wgs.json",
+      "type": "application/json",
+      "title": "Cig Grid Wgs"
+    }
+  ],
+  "item_assets": {
+    "data": {
+      "type": "application/geo+json",
+      "title": "GeoJSON data",
+      "roles": [
+        "data"
+      ]
+    }
+  }
+}

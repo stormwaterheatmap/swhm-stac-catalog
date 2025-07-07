@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Total_Kjeldahl_Nitrogen_Concentration",
+  "properties": {
+    "title": "Total Kjeldahl Nitrogen Concentration",
+    "description": "Total_Kjeldahl_Nitrogen_Concentration",
+    "datetime": "2025-07-03T17:31:05.730244",
+    "created": "2025-07-03T21:22:12.790000+00:00",
+    "updated": "2025-07-03T21:22:12.790000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -13894670.000000002,
+          5875896.353466022
+        ],
+        [
+          -13894670.000000002,
+          6275280.499506599
+        ],
+        [
+          -13431201.128157228,
+          6275280.499506599
+        ],
+        [
+          -13431201.128157228,
+          5875896.353466022
+        ],
+        [
+          -13894670.000000002,
+          5875896.353466022
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -13894670.000000002,
+    5875896.353466022,
+    -13431201.128157228,
+    6275280.499506599
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Kjeldahl_Nitrogen_Concentration/Total_Kjeldahl_Nitrogen_Concentration.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Total Kjeldahl Nitrogen Concentration",
+      "description": "Total_Kjeldahl_Nitrogen_Concentration",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1167714752,
+      "file:checksum": "v/UFLQRzhK9m0vLn5SrFGg=="
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Kjeldahl_Nitrogen_Concentration/Total_Kjeldahl_Nitrogen_Concentration.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Kjeldahl_Nitrogen_Concentration/Total_Kjeldahl_Nitrogen_Concentration.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

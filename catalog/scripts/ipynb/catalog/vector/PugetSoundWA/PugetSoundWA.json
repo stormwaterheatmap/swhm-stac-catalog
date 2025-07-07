@@ -1,0 +1,60 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "PugetSoundWA",
+  "properties": {
+    "title": "Pugetsoundwa",
+    "description": "Vector dataset: PugetSoundWA",
+    "datetime": "2025-07-03T11:43:09.980104",
+    "created": "2025-07-02T20:31:52.564000+00:00",
+    "updated": "2025-07-02T20:31:52.564000+00:00",
+    "providers": [
+      {
+        "name": "SWHM Data",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm_data/"
+      }
+    ]
+  },
+  "geometry": null,
+  "bbox": null,
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/vector/PugetSoundWA/PugetSoundWA.geojson",
+      "type": "application/geo+json",
+      "title": "GeoJSON data",
+      "description": "Vector data in GeoJSON format",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1532246,
+      "file:checksum": "hwh3Z4n83TKJDjiixjSBxA=="
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/vector/PugetSoundWA/PugetSoundWA.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/vector/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/vector/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    }
+  ]
+}

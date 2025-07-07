@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Land_Cover",
+  "properties": {
+    "title": "Land Cover",
+    "description": "Land_Cover",
+    "datetime": "2025-07-03T17:31:05.729614",
+    "created": "2025-07-03T21:22:49.290000+00:00",
+    "updated": "2025-07-03T21:22:49.290000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -13904201.1931867,
+          5875867.238338069
+        ],
+        [
+          -13904201.1931867,
+          6328374.445786312
+        ],
+        [
+          -13430903.11404489,
+          6328374.445786312
+        ],
+        [
+          -13430903.11404489,
+          5875867.238338069
+        ],
+        [
+          -13904201.1931867,
+          5875867.238338069
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -13904201.1931867,
+    5875867.238338069,
+    -13430903.11404489,
+    6328374.445786312
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Land_Cover/Land_Cover.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Land Cover",
+      "description": "Land_Cover",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2603697773,
+      "file:checksum": null
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Land_Cover/Land_Cover.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Land_Cover/Land_Cover.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

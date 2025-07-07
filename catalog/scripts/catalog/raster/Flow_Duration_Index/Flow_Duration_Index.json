@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Flow_Duration_Index",
+  "properties": {
+    "title": "Flow Duration Index",
+    "description": "Flow_Duration_Index",
+    "datetime": "2025-07-03T17:31:05.729303",
+    "created": "2025-07-03T21:22:40.164000+00:00",
+    "updated": "2025-07-03T21:22:40.164000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -13904050.0,
+          5875897.4638424665
+        ],
+        [
+          -13904050.0,
+          6328206.209447447
+        ],
+        [
+          -13431202.159386098,
+          6328206.209447447
+        ],
+        [
+          -13431202.159386098,
+          5875897.4638424665
+        ],
+        [
+          -13904050.0,
+          5875897.4638424665
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -13904050.0,
+    5875897.4638424665,
+    -13431202.159386098,
+    6328206.209447447
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Flow_Duration_Index/Flow_Duration_Index.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Flow Duration Index",
+      "description": "Flow_Duration_Index",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2462802183,
+      "file:checksum": "FU76chTVAYkh+aspkIvnlQ=="
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Flow_Duration_Index/Flow_Duration_Index.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Flow_Duration_Index/Flow_Duration_Index.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

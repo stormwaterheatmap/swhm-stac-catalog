@@ -1,0 +1,65 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "HUC12__USGS_Watershed_Boundary_Dataset",
+  "properties": {
+    "title": "Huc12  Usgs Watershed Boundary Dataset",
+    "description": "HUC12__USGS_Watershed_Boundary_Dataset",
+    "datetime": "2025-07-03T17:31:05.731409",
+    "created": "2025-07-04T00:17:20.789000+00:00",
+    "updated": "2025-07-04T00:17:20.789000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": null,
+  "bbox": [
+    -124.81791282934638,
+    46.593055784134464,
+    -120.65459447215042,
+    49.00245266588554
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/HUC12__USGS_Watershed_Boundary_Dataset/HUC12__USGS_Watershed_Boundary_Dataset.geojson",
+      "type": "application/geo+json",
+      "title": "GeoJSON data",
+      "description": "Vector data in GeoJSON format",
+      "roles": [
+        "data"
+      ],
+      "file:size": 31990542,
+      "file:checksum": "gvKTD94zHTVOaEuBTMbUAQ=="
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/HUC12__USGS_Watershed_Boundary_Dataset/HUC12__USGS_Watershed_Boundary_Dataset.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

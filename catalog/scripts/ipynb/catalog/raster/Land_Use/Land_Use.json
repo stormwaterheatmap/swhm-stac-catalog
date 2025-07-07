@@ -1,0 +1,70 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Land_Use",
+  "properties": {
+    "title": "Land Use",
+    "description": "Raster dataset: Land_Use",
+    "datetime": "2025-07-03T11:43:09.978405",
+    "created": "2025-07-02T16:09:15.880000+00:00",
+    "updated": "2025-07-02T16:09:15.880000+00:00",
+    "providers": [
+      {
+        "name": "SWHM Data",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm_data/"
+      }
+    ]
+  },
+  "geometry": null,
+  "bbox": null,
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Land_Use/Land_Use.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "GeoTIFF data",
+      "description": "Raster data in GeoTIFF format",
+      "roles": [
+        "data"
+      ],
+      "file:size": 292776614,
+      "file:checksum": "NiT/WuZVgTQgu/DNktpeAg=="
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Land_Use/Land_Use.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/Land_Use/Land_Use.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json"
+    }
+  ]
+}

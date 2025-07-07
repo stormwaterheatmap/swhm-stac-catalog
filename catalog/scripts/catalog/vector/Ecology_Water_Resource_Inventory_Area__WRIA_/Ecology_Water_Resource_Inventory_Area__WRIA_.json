@@ -1,0 +1,65 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Ecology_Water_Resource_Inventory_Area__WRIA_",
+  "properties": {
+    "title": "Ecology Water Resource Inventory Area  Wria ",
+    "description": "Ecology_Water_Resource_Inventory_Area__WRIA_",
+    "datetime": "2025-07-03T17:31:05.730993",
+    "created": "2025-07-04T00:17:37.571000+00:00",
+    "updated": "2025-07-04T00:17:37.571000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": null,
+  "bbox": [
+    -124.81791282934638,
+    46.593055784134464,
+    -120.65459447215042,
+    49.00245266588554
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/Ecology_Water_Resource_Inventory_Area__WRIA_/Ecology_Water_Resource_Inventory_Area__WRIA_.geojson",
+      "type": "application/geo+json",
+      "title": "GeoJSON data",
+      "description": "Vector data in GeoJSON format",
+      "roles": [
+        "data"
+      ],
+      "file:size": 4665557,
+      "file:checksum": "5RzuamDDGD9e33r4C+pAOg=="
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/Ecology_Water_Resource_Inventory_Area__WRIA_/Ecology_Water_Resource_Inventory_Area__WRIA_.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

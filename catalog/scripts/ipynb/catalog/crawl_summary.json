@@ -2,10 +2,11 @@
   "crawl_summary": {
     "bucket_name": "swhm_data",
     "prefix": "public/layers/",
-    "crawl_time": "2025-07-02T18:20:54.366333",
-    "total_items": 25,
-    "vectors_found": 5,
-    "rasters_found": 20
+    "crawl_time": "2025-07-03T11:43:10.114120",
+    "total_items": 22,
+    "vectors_found": 2,
+    "rasters_found": 20,
+    "stac_items_generated": 22
   },
   "discovered_vectors": [
     {
@@ -18,23 +19,10 @@
       "content_type": "application/geo+json",
       "created": "2025-07-02T20:31:52.564000+00:00",
       "updated": "2025-07-02T20:31:52.564000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236512",
+      "discovered_at": "2025-07-03T11:43:09.980104",
       "etag": "CPGky7WCn44DEAE=",
-      "md5_hash": "hwh3Z4n83TKJDjiixjSBxA=="
-    },
-    {
-      "name": "PugetSoundWA",
-      "filename": "public/layers/vector/PugetSoundWA/PugetSoundWA.json",
-      "url": "https://storage.googleapis.com/swhm_data/public/layers/vector/PugetSoundWA/PugetSoundWA.json",
-      "type": "vector",
-      "format": "GeoJSON",
-      "size_bytes": 4642,
-      "content_type": "application/json",
-      "created": "2025-07-02T23:30:02.745000+00:00",
-      "updated": "2025-07-02T23:30:02.745000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236559",
-      "etag": "CPTqh5+qn44DEAE=",
-      "md5_hash": "HT1xBeQV1dmY5r2NSRnwlQ=="
+      "md5_hash": "hwh3Z4n83TKJDjiixjSBxA==",
+      "stac_dir": "vector/PugetSoundWA"
     },
     {
       "name": "cig_grid_wgs",
@@ -46,37 +34,10 @@
       "content_type": "application/geo+json",
       "created": "2025-07-02T20:27:01.973000+00:00",
       "updated": "2025-07-02T20:27:01.973000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236609",
+      "discovered_at": "2025-07-03T11:43:09.980230",
       "etag": "CLn+gquBn44DEAE=",
-      "md5_hash": "zB7rQgb8wU+b9MAFGcmgsg=="
-    },
-    {
-      "name": "cig_grid_wgs",
-      "filename": "public/layers/vector/cig_grid_wgs/cig_grid_wgs.json",
-      "url": "https://storage.googleapis.com/swhm_data/public/layers/vector/cig_grid_wgs/cig_grid_wgs.json",
-      "type": "vector",
-      "format": "GeoJSON",
-      "size_bytes": 3452,
-      "content_type": "application/json",
-      "created": "2025-07-02T23:30:00.913000+00:00",
-      "updated": "2025-07-02T23:30:00.913000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236653",
-      "etag": "CKqFmJ6qn44DEAE=",
-      "md5_hash": "p3+7BcpLN7L8MQyEaRXlwg=="
-    },
-    {
-      "name": "collection",
-      "filename": "public/layers/vector/collection.json",
-      "url": "https://storage.googleapis.com/swhm_data/public/layers/vector/collection.json",
-      "type": "vector",
-      "format": "GeoJSON",
-      "size_bytes": 1222,
-      "content_type": "application/json",
-      "created": "2025-07-02T23:19:26.697000+00:00",
-      "updated": "2025-07-02T23:19:26.697000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236715",
-      "etag": "CIHm4u+nn44DEAE=",
-      "md5_hash": "dde7SEyxUf6uGxohoH1T0A=="
+      "md5_hash": "zB7rQgb8wU+b9MAFGcmgsg==",
+      "stac_dir": "vector/cig_grid_wgs"
     }
   ],
   "discovered_rasters": [
@@ -90,9 +51,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:13+00:00",
       "updated": "2025-07-02T16:09:13+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235137",
+      "discovered_at": "2025-07-03T11:43:09.975031",
       "etag": "CPDu69rHno4DEAE=",
-      "md5_hash": "LPPLq3xaCtJfgHfL9rlVkQ=="
+      "md5_hash": "LPPLq3xaCtJfgHfL9rlVkQ==",
+      "stac_dir": "raster/Age_of_Imperviousness"
     },
     {
       "name": "Flow_Duration_Index",
@@ -104,9 +66,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:13.400000+00:00",
       "updated": "2025-07-02T16:09:13.400000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235298",
+      "discovered_at": "2025-07-03T11:43:09.977196",
       "etag": "CLaOhNvHno4DEAE=",
-      "md5_hash": "FU76chTVAYkh+aspkIvnlQ=="
+      "md5_hash": "FU76chTVAYkh+aspkIvnlQ==",
+      "stac_dir": "raster/Flow_Duration_Index"
     },
     {
       "name": "HSPF_Land_Cover_Type",
@@ -118,9 +81,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:13.881000+00:00",
       "updated": "2025-07-02T16:09:13.881000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235368",
+      "discovered_at": "2025-07-03T11:43:09.977376",
       "etag": "CPamodvHno4DEAE=",
-      "md5_hash": null
+      "md5_hash": null,
+      "stac_dir": "raster/HSPF_Land_Cover_Type"
     },
     {
       "name": "Hydrologic_Response_Units",
@@ -132,9 +96,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:14.329000+00:00",
       "updated": "2025-07-02T16:09:14.329000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235433",
+      "discovered_at": "2025-07-03T11:43:09.977551",
       "etag": "CMPOvNvHno4DEAE=",
-      "md5_hash": null
+      "md5_hash": null,
+      "stac_dir": "raster/Hydrologic_Response_Units"
     },
     {
       "name": "Imperviousness",
@@ -146,9 +111,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:14.827000+00:00",
       "updated": "2025-07-02T16:09:14.827000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235516",
+      "discovered_at": "2025-07-03T11:43:09.977711",
       "etag": "CMfZ2tvHno4DEAE=",
-      "md5_hash": null
+      "md5_hash": null,
+      "stac_dir": "raster/Imperviousness"
     },
     {
       "name": "Land_Cover",
@@ -160,9 +126,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:15.427000+00:00",
       "updated": "2025-07-02T16:09:15.427000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235570",
+      "discovered_at": "2025-07-03T11:43:09.978191",
       "etag": "CO2P/9vHno4DEAE=",
-      "md5_hash": null
+      "md5_hash": null,
+      "stac_dir": "raster/Land_Cover"
     },
     {
       "name": "Land_Use",
@@ -174,9 +141,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:15.880000+00:00",
       "updated": "2025-07-02T16:09:15.880000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235626",
+      "discovered_at": "2025-07-03T11:43:09.978405",
       "etag": "CKzKm9zHno4DEAE=",
-      "md5_hash": "NiT/WuZVgTQgu/DNktpeAg=="
+      "md5_hash": "NiT/WuZVgTQgu/DNktpeAg==",
+      "stac_dir": "raster/Land_Use"
     },
     {
       "name": "Population_Density",
@@ -188,9 +156,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:16.258000+00:00",
       "updated": "2025-07-02T16:09:16.258000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235699",
+      "discovered_at": "2025-07-03T11:43:09.978541",
       "etag": "CNTPstzHno4DEAE=",
-      "md5_hash": "SStpcZl0ieyOQ3fu96U8tg=="
+      "md5_hash": "SStpcZl0ieyOQ3fu96U8tg==",
+      "stac_dir": "raster/Population_Density"
     },
     {
       "name": "Precipitation_mm",
@@ -202,9 +171,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:16.601000+00:00",
       "updated": "2025-07-02T16:09:16.601000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235753",
+      "discovered_at": "2025-07-03T11:43:09.978672",
       "etag": "CO7Ox9zHno4DEAE=",
-      "md5_hash": "SdfJ3o+QTi3Q9zVyUnB3eg=="
+      "md5_hash": "SdfJ3o+QTi3Q9zVyUnB3eg==",
+      "stac_dir": "raster/Precipitation_mm"
     },
     {
       "name": "Runoff_mm",
@@ -216,9 +186,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:16.957000+00:00",
       "updated": "2025-07-02T16:09:16.957000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235812",
+      "discovered_at": "2025-07-03T11:43:09.978796",
       "etag": "CKea3dzHno4DEAE=",
-      "md5_hash": "Z0XYBnipMVrt4VKCqxTD/w=="
+      "md5_hash": "Z0XYBnipMVrt4VKCqxTD/w==",
+      "stac_dir": "raster/Runoff_mm"
     },
     {
       "name": "Slope",
@@ -230,9 +201,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:17.364000+00:00",
       "updated": "2025-07-02T16:09:17.364000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235882",
+      "discovered_at": "2025-07-03T11:43:09.978924",
       "etag": "CLiO9tzHno4DEAE=",
-      "md5_hash": "ESdu/Mz2Bx1y5owE/DzY4Q=="
+      "md5_hash": "ESdu/Mz2Bx1y5owE/DzY4Q==",
+      "stac_dir": "raster/Slope"
     },
     {
       "name": "Slope_Categories",
@@ -244,9 +216,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:17.773000+00:00",
       "updated": "2025-07-02T16:09:17.773000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.235954",
+      "discovered_at": "2025-07-03T11:43:09.979041",
       "etag": "CIqDj93Hno4DEAE=",
-      "md5_hash": "14rJoVBBo6xBaDiF0JJ0dg=="
+      "md5_hash": "14rJoVBBo6xBaDiF0JJ0dg==",
+      "stac_dir": "raster/Slope_Categories"
     },
     {
       "name": "Soils",
@@ -258,9 +231,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:18.198000+00:00",
       "updated": "2025-07-02T16:09:18.198000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236016",
+      "discovered_at": "2025-07-03T11:43:09.979162",
       "etag": "CN/qqN3Hno4DEAE=",
-      "md5_hash": null
+      "md5_hash": null,
+      "stac_dir": "raster/Soils"
     },
     {
       "name": "Total_Copper_Concentration",
@@ -272,9 +246,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:18.939000+00:00",
       "updated": "2025-07-02T16:09:18.939000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236091",
+      "discovered_at": "2025-07-03T11:43:09.979288",
       "etag": "CM+b1t3Hno4DEAE=",
-      "md5_hash": "R6DPd2H6mue/Ccl5ox5yQw=="
+      "md5_hash": "R6DPd2H6mue/Ccl5ox5yQw==",
+      "stac_dir": "raster/Total_Copper_Concentration"
     },
     {
       "name": "Total_Kjeldahl_Nitrogen_Concentration",
@@ -286,9 +261,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:19.315000+00:00",
       "updated": "2025-07-02T16:09:19.315000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236151",
+      "discovered_at": "2025-07-03T11:43:09.979408",
       "etag": "CPGU7d3Hno4DEAE=",
-      "md5_hash": "v/UFLQRzhK9m0vLn5SrFGg=="
+      "md5_hash": "v/UFLQRzhK9m0vLn5SrFGg==",
+      "stac_dir": "raster/Total_Kjeldahl_Nitrogen_Concentration"
     },
     {
       "name": "Total_Phosphorus_Concentration",
@@ -300,9 +276,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:19.700000+00:00",
       "updated": "2025-07-02T16:09:19.700000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236217",
+      "discovered_at": "2025-07-03T11:43:09.979521",
       "etag": "CIPMhN7Hno4DEAE=",
-      "md5_hash": "t4UNBqzoMt/G0+35LYsbBA=="
+      "md5_hash": "t4UNBqzoMt/G0+35LYsbBA==",
+      "stac_dir": "raster/Total_Phosphorus_Concentration"
     },
     {
       "name": "Total_Suspended_Solids_Concentration",
@@ -314,9 +291,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:20.078000+00:00",
       "updated": "2025-07-02T16:09:20.078000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236288",
+      "discovered_at": "2025-07-03T11:43:09.979630",
       "etag": "CJ/Ym97Hno4DEAE=",
-      "md5_hash": "9nibBDGImHP+Bf2tWtwu0w=="
+      "md5_hash": "9nibBDGImHP+Bf2tWtwu0w==",
+      "stac_dir": "raster/Total_Suspended_Solids_Concentration"
     },
     {
       "name": "Total_Zinc_Concentration",
@@ -328,9 +306,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:20.498000+00:00",
       "updated": "2025-07-02T16:09:20.498000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236350",
+      "discovered_at": "2025-07-03T11:43:09.979743",
       "etag": "CJOjtd7Hno4DEAE=",
-      "md5_hash": "gEaKk/f+l5bm73JpdLbEOQ=="
+      "md5_hash": "gEaKk/f+l5bm73JpdLbEOQ==",
+      "stac_dir": "raster/Total_Zinc_Concentration"
     },
     {
       "name": "Traffic",
@@ -342,9 +321,10 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:20.883000+00:00",
       "updated": "2025-07-02T16:09:20.883000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236406",
+      "discovered_at": "2025-07-03T11:43:09.979860",
       "etag": "CInwzN7Hno4DEAE=",
-      "md5_hash": "H6kt5a7DXu7CU7bb7gYoTg=="
+      "md5_hash": "H6kt5a7DXu7CU7bb7gYoTg==",
+      "stac_dir": "raster/Traffic"
     },
     {
       "name": "copper_concentration_ug_per_L",
@@ -356,9 +336,41 @@
       "content_type": "image/tiff",
       "created": "2025-07-02T16:09:21.619000+00:00",
       "updated": "2025-07-02T16:09:21.619000+00:00",
-      "discovered_at": "2025-07-02T18:20:54.236462",
+      "discovered_at": "2025-07-03T11:43:09.979971",
       "etag": "CM7W+N7Hno4DEAE=",
-      "md5_hash": null
+      "md5_hash": null,
+      "stac_dir": "raster/copper_concentration_ug_per_L"
     }
-  ]
+  ],
+  "stac_structure": {
+    "catalog": "catalog/catalog.json",
+    "vector_collection": "catalog/vector/collection.json",
+    "raster_collection": "catalog/raster/collection.json",
+    "vector_items": [
+      "catalog/vector/PugetSoundWA/PugetSoundWA.json",
+      "catalog/vector/cig_grid_wgs/cig_grid_wgs.json"
+    ],
+    "raster_items": [
+      "catalog/raster/Age_of_Imperviousness/Age_of_Imperviousness.json",
+      "catalog/raster/Flow_Duration_Index/Flow_Duration_Index.json",
+      "catalog/raster/HSPF_Land_Cover_Type/HSPF_Land_Cover_Type.json",
+      "catalog/raster/Hydrologic_Response_Units/Hydrologic_Response_Units.json",
+      "catalog/raster/Imperviousness/Imperviousness.json",
+      "catalog/raster/Land_Cover/Land_Cover.json",
+      "catalog/raster/Land_Use/Land_Use.json",
+      "catalog/raster/Population_Density/Population_Density.json",
+      "catalog/raster/Precipitation_mm/Precipitation_mm.json",
+      "catalog/raster/Runoff_mm/Runoff_mm.json",
+      "catalog/raster/Slope/Slope.json",
+      "catalog/raster/Slope_Categories/Slope_Categories.json",
+      "catalog/raster/Soils/Soils.json",
+      "catalog/raster/Total_Copper_Concentration/Total_Copper_Concentration.json",
+      "catalog/raster/Total_Kjeldahl_Nitrogen_Concentration/Total_Kjeldahl_Nitrogen_Concentration.json",
+      "catalog/raster/Total_Phosphorus_Concentration/Total_Phosphorus_Concentration.json",
+      "catalog/raster/Total_Suspended_Solids_Concentration/Total_Suspended_Solids_Concentration.json",
+      "catalog/raster/Total_Zinc_Concentration/Total_Zinc_Concentration.json",
+      "catalog/raster/Traffic/Traffic.json",
+      "catalog/raster/copper_concentration_ug_per_L/copper_concentration_ug_per_L.json"
+    ]
+  }
 }

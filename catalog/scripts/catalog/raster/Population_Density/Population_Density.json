@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Population_Density",
+  "properties": {
+    "title": "Population Density",
+    "description": "Population_Density",
+    "datetime": "2025-07-03T17:31:05.729762",
+    "created": "2025-07-03T21:21:35.733000+00:00",
+    "updated": "2025-07-03T21:21:35.733000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -124.9026554192624,
+          46.59291884142723
+        ],
+        [
+          -124.9026554192624,
+          49.313915837025256
+        ],
+        [
+          -120.65452244066118,
+          49.313915837025256
+        ],
+        [
+          -120.65452244066118,
+          46.59291884142723
+        ],
+        [
+          -124.9026554192624,
+          46.59291884142723
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -124.9026554192624,
+    46.59291884142723,
+    -120.65452244066118,
+    49.313915837025256
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Population_Density/Population_Density.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Population Density",
+      "description": "Population_Density",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11961723,
+      "file:checksum": "SStpcZl0ieyOQ3fu96U8tg=="
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Population_Density/Population_Density.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Population_Density/Population_Density.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

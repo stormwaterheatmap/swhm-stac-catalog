@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Runoff_mm",
+  "properties": {
+    "title": "Runoff Mm",
+    "description": "Runoff_mm",
+    "datetime": "2025-07-03T17:31:05.729898",
+    "created": "2025-07-03T21:24:21.519000+00:00",
+    "updated": "2025-07-03T21:24:21.519000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -124.90220626162032,
+          46.59305358871984
+        ],
+        [
+          -124.90220626162032,
+          49.31342176361898
+        ],
+        [
+          -120.65456735642537,
+          49.31342176361898
+        ],
+        [
+          -120.65456735642537,
+          46.59305358871984
+        ],
+        [
+          -124.90220626162032,
+          46.59305358871984
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -124.90220626162032,
+    46.59305358871984,
+    -120.65456735642537,
+    49.31342176361898
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Runoff_mm/Runoff_mm.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Runoff Mm",
+      "description": "Runoff_mm",
+      "roles": [
+        "data"
+      ],
+      "file:size": 5723145271,
+      "file:checksum": "Z0XYBnipMVrt4VKCqxTD/w=="
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Runoff_mm/Runoff_mm.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Runoff_mm/Runoff_mm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

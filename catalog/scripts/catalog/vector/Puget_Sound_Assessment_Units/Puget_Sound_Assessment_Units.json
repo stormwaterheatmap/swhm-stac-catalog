@@ -1,0 +1,65 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Puget_Sound_Assessment_Units",
+  "properties": {
+    "title": "Puget Sound Assessment Units",
+    "description": "Puget_Sound_Assessment_Units",
+    "datetime": "2025-07-03T17:31:05.731640",
+    "created": "2025-07-04T00:18:13.854000+00:00",
+    "updated": "2025-07-04T00:18:13.854000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": null,
+  "bbox": [
+    -124.81791282934638,
+    46.593055784134464,
+    -120.65459447215042,
+    49.00245266588554
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/Puget_Sound_Assessment_Units/Puget_Sound_Assessment_Units.geojson",
+      "type": "application/geo+json",
+      "title": "GeoJSON data",
+      "description": "Vector data in GeoJSON format",
+      "roles": [
+        "data"
+      ],
+      "file:size": 48188793,
+      "file:checksum": "Pl/v7bCLzJ+qUo4aeI/85w=="
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/Puget_Sound_Assessment_Units/Puget_Sound_Assessment_Units.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

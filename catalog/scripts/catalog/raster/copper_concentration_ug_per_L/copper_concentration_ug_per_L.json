@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "copper_concentration_ug_per_L",
+  "properties": {
+    "title": "Copper Concentration Ug Per L",
+    "description": "copper_concentration_ug_per_L",
+    "datetime": "2025-07-03T17:31:05.730770",
+    "created": "2025-07-03T21:25:22.841000+00:00",
+    "updated": "2025-07-03T21:25:22.841000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -13895640.246018762,
+          5875255.742111787
+        ],
+        [
+          -13895640.246018762,
+          6276397.266552392
+        ],
+        [
+          -13430903.11404489,
+          6276397.266552392
+        ],
+        [
+          -13430903.11404489,
+          5875255.742111787
+        ],
+        [
+          -13895640.246018762,
+          5875255.742111787
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -13895640.246018762,
+    5875255.742111787,
+    -13430903.11404489,
+    6276397.266552392
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/copper_concentration_ug_per_L/copper_concentration_ug_per_L.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Copper Concentration Ug Per L",
+      "description": "copper_concentration_ug_per_L",
+      "roles": [
+        "data"
+      ],
+      "file:size": 8159008104,
+      "file:checksum": null
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/copper_concentration_ug_per_L/copper_concentration_ug_per_L.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/copper_concentration_ug_per_L/copper_concentration_ug_per_L.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

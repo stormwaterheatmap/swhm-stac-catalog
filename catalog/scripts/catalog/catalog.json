@@ -1,0 +1,63 @@
+{
+  "type": "Catalog",
+  "catalog_type": "Published_Absolute",
+  "stac_version": "1.0.0",
+  "id": "data-catalog",
+  "title": "Stormwater Heatmap Data Catalog",
+  "description": "STAC catalog for Stormwater Heatmap datasets including raster layers and pollutant concentration models",
+  "created": "2025-07-03T17:31:16.577039",
+  "updated": "2025-07-03T17:31:16.577048",
+  "keywords": [
+    "geospatial",
+    "stormwater",
+    "hydrology",
+    "pollution",
+    "environmental"
+  ],
+  "providers": [
+    {
+      "name": "StormwaterHeatmap.Org",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/swhm-stac-data"
+    }
+  ],
+  "assets": {
+    "layer_metadata": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/layer_metadata/layer_metadata.json",
+      "type": "application/json",
+      "title": "Layer Metadata",
+      "description": "Complete metadata for all data layers including visualization parameters, units, and source information",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json",
+      "title": "Data Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json",
+      "title": "Raster"
+    },
+    {
+      "rel": "child",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/collection.json",
+      "type": "application/json",
+      "title": "Vector"
+    }
+  ],
+  "conformsTo": [
+    "https://api.stacspec.org/v1.0.0/core",
+    "https://api.stacspec.org/v1.0.0/collections"
+  ]
+}
