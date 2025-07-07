@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "HSPF_Land_Cover_Type",
+  "properties": {
+    "title": "Hspf Land Cover Type",
+    "description": "HSPF_Land_Cover_Type",
+    "datetime": "2025-07-03T17:31:05.729392",
+    "created": "2025-07-03T21:21:58.391000+00:00",
+    "updated": "2025-07-03T21:21:58.391000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -13904201.1931867,
+          5875867.238338069
+        ],
+        [
+          -13904201.1931867,
+          6328374.445786312
+        ],
+        [
+          -13430903.11404489,
+          6328374.445786312
+        ],
+        [
+          -13430903.11404489,
+          5875867.238338069
+        ],
+        [
+          -13904201.1931867,
+          5875867.238338069
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -13904201.1931867,
+    5875867.238338069,
+    -13430903.11404489,
+    6328374.445786312
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/HSPF_Land_Cover_Type/HSPF_Land_Cover_Type.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Hspf Land Cover Type",
+      "description": "HSPF_Land_Cover_Type",
+      "roles": [
+        "data"
+      ],
+      "file:size": 789553258,
+      "file:checksum": null
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/HSPF_Land_Cover_Type/HSPF_Land_Cover_Type.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/HSPF_Land_Cover_Type/HSPF_Land_Cover_Type.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

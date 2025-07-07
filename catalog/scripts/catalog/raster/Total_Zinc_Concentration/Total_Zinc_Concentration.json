@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Total_Zinc_Concentration",
+  "properties": {
+    "title": "Total Zinc Concentration",
+    "description": "Total_Zinc_Concentration",
+    "datetime": "2025-07-03T17:31:05.730585",
+    "created": "2025-07-03T21:22:09.806000+00:00",
+    "updated": "2025-07-03T21:22:09.806000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -13894670.000000002,
+          5875896.353466022
+        ],
+        [
+          -13894670.000000002,
+          6275280.499506599
+        ],
+        [
+          -13431201.128157228,
+          6275280.499506599
+        ],
+        [
+          -13431201.128157228,
+          5875896.353466022
+        ],
+        [
+          -13894670.000000002,
+          5875896.353466022
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -13894670.000000002,
+    5875896.353466022,
+    -13431201.128157228,
+    6275280.499506599
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Zinc_Concentration/Total_Zinc_Concentration.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Total Zinc Concentration",
+      "description": "Total_Zinc_Concentration",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1335807449,
+      "file:checksum": "gEaKk/f+l5bm73JpdLbEOQ=="
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Zinc_Concentration/Total_Zinc_Concentration.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Zinc_Concentration/Total_Zinc_Concentration.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

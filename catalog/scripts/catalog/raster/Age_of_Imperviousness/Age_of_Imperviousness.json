@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Age_of_Imperviousness",
+  "properties": {
+    "title": "Age Of Imperviousness",
+    "description": "Age_of_Imperviousness",
+    "datetime": "2025-07-03T17:31:05.729154",
+    "created": "2025-07-03T21:21:35.547000+00:00",
+    "updated": "2025-07-03T21:21:35.547000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -13904050.342789244,
+          5875896.664228426
+        ],
+        [
+          -13904050.342789244,
+          6328206.664228426
+        ],
+        [
+          -13431205.342789244,
+          6328206.664228426
+        ],
+        [
+          -13431205.342789244,
+          5875896.664228426
+        ],
+        [
+          -13904050.342789244,
+          5875896.664228426
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -13904050.342789244,
+    5875896.664228426,
+    -13431205.342789244,
+    6328206.664228426
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Age_of_Imperviousness/Age_of_Imperviousness.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Age Of Imperviousness",
+      "description": "Age_of_Imperviousness",
+      "roles": [
+        "data"
+      ],
+      "file:size": 11861750,
+      "file:checksum": "LPPLq3xaCtJfgHfL9rlVkQ=="
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Age_of_Imperviousness/Age_of_Imperviousness.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Age_of_Imperviousness/Age_of_Imperviousness.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

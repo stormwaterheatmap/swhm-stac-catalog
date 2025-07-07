@@ -1,5 +1,6 @@
 <template>
   <div :class="{cc: true, [cssStacType]: true, mixed: hasCatalogs && hasItems, empty: !hasCatalogs && !hasItems}" :key="data.id">
+    <Hero v-if="isRootCatalog" />
     <b-row>
       <b-col class="meta">
         <section class="intro">
@@ -82,6 +83,7 @@ export default {
     CollectionLink: () => import('../components/CollectionLink.vue'),
     DeprecationNotice: () => import('../components/DeprecationNotice.vue'),
     Description,
+    Hero: () => import('../components/Hero.vue'),
     Items,
     Keywords: () => import('../components/Keywords.vue'),
     Links: () => import('../components/Links.vue'),
@@ -137,6 +139,9 @@ export default {
   computed: {
     ...mapState(['data', 'url', 'apiItems', 'apiItemsLink', 'apiItemsPagination', 'nextCollectionsLink', 'stateQueryParameters']),
     ...mapGetters(['additionalLinks', 'catalogs', 'collectionLink', 'isCollection', 'items', 'getApiItemsLoading', 'parentLink', 'rootLink']),
+    isRootCatalog() {
+      return this.data && this.data.type === 'Catalog' && !this.parentLink;
+    },
     cssStacType() {
       if (Utils.hasText(this.data?.type)) {
         return this.data?.type.toLowerCase();

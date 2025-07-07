@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Total_Suspended_Solids_Concentration",
+  "properties": {
+    "title": "Total Suspended Solids Concentration",
+    "description": "Total_Suspended_Solids_Concentration",
+    "datetime": "2025-07-03T17:31:05.730446",
+    "created": "2025-07-03T21:22:08.298000+00:00",
+    "updated": "2025-07-03T21:22:08.298000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -13894670.000000002,
+          5875896.353466022
+        ],
+        [
+          -13894670.000000002,
+          6275280.499506599
+        ],
+        [
+          -13431201.128157228,
+          6275280.499506599
+        ],
+        [
+          -13431201.128157228,
+          5875896.353466022
+        ],
+        [
+          -13894670.000000002,
+          5875896.353466022
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -13894670.000000002,
+    5875896.353466022,
+    -13431201.128157228,
+    6275280.499506599
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Suspended_Solids_Concentration/Total_Suspended_Solids_Concentration.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Total Suspended Solids Concentration",
+      "description": "Total_Suspended_Solids_Concentration",
+      "roles": [
+        "data"
+      ],
+      "file:size": 1185797094,
+      "file:checksum": "9nibBDGImHP+Bf2tWtwu0w=="
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Suspended_Solids_Concentration/Total_Suspended_Solids_Concentration.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Suspended_Solids_Concentration/Total_Suspended_Solids_Concentration.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

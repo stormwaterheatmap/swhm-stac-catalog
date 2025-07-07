@@ -1,0 +1,65 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "NHDPlus_High_Resolution_Watershed_Dataset",
+  "properties": {
+    "title": "Nhdplus High Resolution Watershed Dataset",
+    "description": "NHDPlus_High_Resolution_Watershed_Dataset",
+    "datetime": "2025-07-03T17:31:05.731485",
+    "created": "2025-07-04T00:17:44.200000+00:00",
+    "updated": "2025-07-04T00:17:44.200000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": null,
+  "bbox": [
+    -124.81791282934638,
+    46.593055784134464,
+    -120.65459447215042,
+    49.00245266588554
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/NHDPlus_High_Resolution_Watershed_Dataset/NHDPlus_High_Resolution_Watershed_Dataset.geojson",
+      "type": "application/geo+json",
+      "title": "GeoJSON data",
+      "description": "Vector data in GeoJSON format",
+      "roles": [
+        "data"
+      ],
+      "file:size": 93458073,
+      "file:checksum": "BMHoecxbLwnctFaSiapeeQ=="
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/NHDPlus_High_Resolution_Watershed_Dataset/NHDPlus_High_Resolution_Watershed_Dataset.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/vector/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

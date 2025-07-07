@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Traffic",
+  "properties": {
+    "title": "Traffic",
+    "description": "Traffic",
+    "datetime": "2025-07-03T17:31:05.730677",
+    "created": "2025-07-03T21:22:28.936000+00:00",
+    "updated": "2025-07-03T21:22:28.936000+00:00",
+    "providers": [
+      {
+        "name": "StormwaterHeatmap.Org",
+        "roles": [
+          "producer",
+          "processor",
+          "host"
+        ],
+        "url": "https://storage.googleapis.com/swhm-stac-data"
+      }
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -13897137.75844496,
+          5872964.06496684
+        ],
+        [
+          -13897137.75844496,
+          6278308.21974299
+        ],
+        [
+          -13429787.041642629,
+          6278308.21974299
+        ],
+        [
+          -13429787.041642629,
+          5872964.06496684
+        ],
+        [
+          -13897137.75844496,
+          5872964.06496684
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -13897137.75844496,
+    5872964.06496684,
+    -13429787.041642629,
+    6278308.21974299
+  ],
+  "assets": {
+    "data": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Traffic/Traffic.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Traffic",
+      "description": "Traffic",
+      "roles": [
+        "data"
+      ],
+      "file:size": 2055252928,
+      "file:checksum": "H6kt5a7DXu7CU7bb7gYoTg=="
+    },
+    "cog": {
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Traffic/Traffic.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Cloud Optimized GeoTIFF",
+      "description": "Cloud Optimized GeoTIFF for web access",
+      "roles": [
+        "data",
+        "overview"
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/Traffic/Traffic.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "https://storage.googleapis.com/swhm-stac-data/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "https://storage.googleapis.com/swhm-stac-data/raster/collection.json",
+      "type": "application/json"
+    }
+  ]
+}

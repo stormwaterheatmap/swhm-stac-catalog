@@ -1,0 +1,1210 @@
+{
+  "crawl_summary": {
+    "bucket_name": "swhm-stac-data",
+    "prefix": "",
+    "crawl_time": "2025-07-03T17:31:16.639772",
+    "total_items": 30,
+    "items_found": 30,
+    "collections_generated": 2,
+    "stac_items_generated": 30
+  },
+  "discovered_items": [
+    {
+      "name": "Age_of_Imperviousness",
+      "filename": "raster/Age_of_Imperviousness/Age_of_Imperviousness.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Age_of_Imperviousness/Age_of_Imperviousness.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 11861750,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:21:35.547000+00:00",
+      "updated": "2025-07-03T21:21:35.547000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.729154",
+      "etag": "CKTz2LLPoY4DEAE=",
+      "md5_hash": "LPPLq3xaCtJfgHfL9rlVkQ==",
+      "stac_dir": "raster/Age_of_Imperviousness",
+      "path_parts": [
+        "raster",
+        "Age_of_Imperviousness"
+      ]
+    },
+    {
+      "name": "Flow_Duration_Index",
+      "filename": "raster/Flow_Duration_Index/Flow_Duration_Index.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Flow_Duration_Index/Flow_Duration_Index.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 2462802183,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:22:40.164000+00:00",
+      "updated": "2025-07-03T21:22:40.164000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.729303",
+      "etag": "CI+2uNHPoY4DEAE=",
+      "md5_hash": "FU76chTVAYkh+aspkIvnlQ==",
+      "stac_dir": "raster/Flow_Duration_Index",
+      "path_parts": [
+        "raster",
+        "Flow_Duration_Index"
+      ]
+    },
+    {
+      "name": "HSPF_Land_Cover_Type",
+      "filename": "raster/HSPF_Land_Cover_Type/HSPF_Land_Cover_Type.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/HSPF_Land_Cover_Type/HSPF_Land_Cover_Type.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 789553258,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:21:58.391000+00:00",
+      "updated": "2025-07-03T21:21:58.391000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.729392",
+      "etag": "CIHrxr3PoY4DEAE=",
+      "md5_hash": null,
+      "stac_dir": "raster/HSPF_Land_Cover_Type",
+      "path_parts": [
+        "raster",
+        "HSPF_Land_Cover_Type"
+      ]
+    },
+    {
+      "name": "Hydrologic_Response_Units",
+      "filename": "raster/Hydrologic_Response_Units/Hydrologic_Response_Units.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Hydrologic_Response_Units/Hydrologic_Response_Units.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 1067170878,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:22:06.094000+00:00",
+      "updated": "2025-07-03T21:22:06.094000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.729469",
+      "etag": "CIeym8HPoY4DEAE=",
+      "md5_hash": null,
+      "stac_dir": "raster/Hydrologic_Response_Units",
+      "path_parts": [
+        "raster",
+        "Hydrologic_Response_Units"
+      ]
+    },
+    {
+      "name": "Imperviousness",
+      "filename": "raster/Imperviousness/Imperviousness.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Imperviousness/Imperviousness.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 14816117190,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:28:49.623000+00:00",
+      "updated": "2025-07-03T21:28:49.623000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.729542",
+      "etag": "CPu8w4HRoY4DEAE=",
+      "md5_hash": null,
+      "stac_dir": "raster/Imperviousness",
+      "path_parts": [
+        "raster",
+        "Imperviousness"
+      ]
+    },
+    {
+      "name": "Land_Cover",
+      "filename": "raster/Land_Cover/Land_Cover.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Land_Cover/Land_Cover.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 2603697773,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:22:49.290000+00:00",
+      "updated": "2025-07-03T21:22:49.290000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.729614",
+      "etag": "COfr5dXPoY4DEAE=",
+      "md5_hash": null,
+      "stac_dir": "raster/Land_Cover",
+      "path_parts": [
+        "raster",
+        "Land_Cover"
+      ]
+    },
+    {
+      "name": "Land_Use",
+      "filename": "raster/Land_Use/Land_Use.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Land_Use/Land_Use.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 292776614,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:21:39.802000+00:00",
+      "updated": "2025-07-03T21:21:39.802000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.729689",
+      "etag": "COPC27TPoY4DEAE=",
+      "md5_hash": "NiT/WuZVgTQgu/DNktpeAg==",
+      "stac_dir": "raster/Land_Use",
+      "path_parts": [
+        "raster",
+        "Land_Use"
+      ]
+    },
+    {
+      "name": "Population_Density",
+      "filename": "raster/Population_Density/Population_Density.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Population_Density/Population_Density.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 11961723,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:21:35.733000+00:00",
+      "updated": "2025-07-03T21:21:35.733000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.729762",
+      "etag": "CICq5LLPoY4DEAE=",
+      "md5_hash": "SStpcZl0ieyOQ3fu96U8tg==",
+      "stac_dir": "raster/Population_Density",
+      "path_parts": [
+        "raster",
+        "Population_Density"
+      ]
+    },
+    {
+      "name": "Precipitation_mm",
+      "filename": "raster/Precipitation_mm/Precipitation_mm.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Precipitation_mm/Precipitation_mm.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 184853,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:21:35.375000+00:00",
+      "updated": "2025-07-03T21:21:35.375000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.729830",
+      "etag": "COrzzbLPoY4DEAE=",
+      "md5_hash": "SdfJ3o+QTi3Q9zVyUnB3eg==",
+      "stac_dir": "raster/Precipitation_mm",
+      "path_parts": [
+        "raster",
+        "Precipitation_mm"
+      ]
+    },
+    {
+      "name": "Runoff_mm",
+      "filename": "raster/Runoff_mm/Runoff_mm.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Runoff_mm/Runoff_mm.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 5723145271,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:24:21.519000+00:00",
+      "updated": "2025-07-03T21:24:21.519000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.729898",
+      "etag": "CK+Q14HQoY4DEAE=",
+      "md5_hash": "Z0XYBnipMVrt4VKCqxTD/w==",
+      "stac_dir": "raster/Runoff_mm",
+      "path_parts": [
+        "raster",
+        "Runoff_mm"
+      ]
+    },
+    {
+      "name": "Slope",
+      "filename": "raster/Slope/Slope.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Slope/Slope.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 9657033234,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:26:28.835000+00:00",
+      "updated": "2025-07-03T21:26:28.835000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.729968",
+      "etag": "CNGPtb7QoY4DEAE=",
+      "md5_hash": "ESdu/Mz2Bx1y5owE/DzY4Q==",
+      "stac_dir": "raster/Slope",
+      "path_parts": [
+        "raster",
+        "Slope"
+      ]
+    },
+    {
+      "name": "Slope_Categories",
+      "filename": "raster/Slope_Categories/Slope_Categories.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Slope_Categories/Slope_Categories.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 1162360741,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:22:04.111000+00:00",
+      "updated": "2025-07-03T21:22:04.111000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730040",
+      "etag": "CJO8ocDPoY4DEAE=",
+      "md5_hash": "14rJoVBBo6xBaDiF0JJ0dg==",
+      "stac_dir": "raster/Slope_Categories",
+      "path_parts": [
+        "raster",
+        "Slope_Categories"
+      ]
+    },
+    {
+      "name": "Soils",
+      "filename": "raster/Soils/Soils.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Soils/Soils.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 377864655,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:21:47.407000+00:00",
+      "updated": "2025-07-03T21:21:47.407000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730108",
+      "etag": "CJy6q7jPoY4DEAE=",
+      "md5_hash": null,
+      "stac_dir": "raster/Soils",
+      "path_parts": [
+        "raster",
+        "Soils"
+      ]
+    },
+    {
+      "name": "Total_Copper_Concentration",
+      "filename": "raster/Total_Copper_Concentration/Total_Copper_Concentration.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Copper_Concentration/Total_Copper_Concentration.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 1751254482,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:22:30.105000+00:00",
+      "updated": "2025-07-03T21:22:30.105000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730175",
+      "etag": "CM+Q18zPoY4DEAE=",
+      "md5_hash": "R6DPd2H6mue/Ccl5ox5yQw==",
+      "stac_dir": "raster/Total_Copper_Concentration",
+      "path_parts": [
+        "raster",
+        "Total_Copper_Concentration"
+      ]
+    },
+    {
+      "name": "Total_Kjeldahl_Nitrogen_Concentration",
+      "filename": "raster/Total_Kjeldahl_Nitrogen_Concentration/Total_Kjeldahl_Nitrogen_Concentration.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Kjeldahl_Nitrogen_Concentration/Total_Kjeldahl_Nitrogen_Concentration.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 1167714752,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:22:12.790000+00:00",
+      "updated": "2025-07-03T21:22:12.790000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730244",
+      "etag": "CKTwtMTPoY4DEAE=",
+      "md5_hash": "v/UFLQRzhK9m0vLn5SrFGg==",
+      "stac_dir": "raster/Total_Kjeldahl_Nitrogen_Concentration",
+      "path_parts": [
+        "raster",
+        "Total_Kjeldahl_Nitrogen_Concentration"
+      ]
+    },
+    {
+      "name": "Total_Phosphorus_Concentration",
+      "filename": "raster/Total_Phosphorus_Concentration/Total_Phosphorus_Concentration.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Phosphorus_Concentration/Total_Phosphorus_Concentration.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 1750395809,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:22:20.149000+00:00",
+      "updated": "2025-07-03T21:22:20.149000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730317",
+      "etag": "CKWi88fPoY4DEAE=",
+      "md5_hash": "t4UNBqzoMt/G0+35LYsbBA==",
+      "stac_dir": "raster/Total_Phosphorus_Concentration",
+      "path_parts": [
+        "raster",
+        "Total_Phosphorus_Concentration"
+      ]
+    },
+    {
+      "name": "Total_Suspended_Solids_Concentration",
+      "filename": "raster/Total_Suspended_Solids_Concentration/Total_Suspended_Solids_Concentration.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Suspended_Solids_Concentration/Total_Suspended_Solids_Concentration.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 1185797094,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:22:08.298000+00:00",
+      "updated": "2025-07-03T21:22:08.298000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730446",
+      "etag": "CKTXoMLPoY4DEAE=",
+      "md5_hash": "9nibBDGImHP+Bf2tWtwu0w==",
+      "stac_dir": "raster/Total_Suspended_Solids_Concentration",
+      "path_parts": [
+        "raster",
+        "Total_Suspended_Solids_Concentration"
+      ]
+    },
+    {
+      "name": "Total_Zinc_Concentration",
+      "filename": "raster/Total_Zinc_Concentration/Total_Zinc_Concentration.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Zinc_Concentration/Total_Zinc_Concentration.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 1335807449,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:22:09.806000+00:00",
+      "updated": "2025-07-03T21:22:09.806000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730585",
+      "etag": "CK3O/cLPoY4DEAE=",
+      "md5_hash": "gEaKk/f+l5bm73JpdLbEOQ==",
+      "stac_dir": "raster/Total_Zinc_Concentration",
+      "path_parts": [
+        "raster",
+        "Total_Zinc_Concentration"
+      ]
+    },
+    {
+      "name": "Traffic",
+      "filename": "raster/Traffic/Traffic.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/Traffic/Traffic.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 2055252928,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:22:28.936000+00:00",
+      "updated": "2025-07-03T21:22:28.936000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730677",
+      "etag": "CNa9iczPoY4DEAE=",
+      "md5_hash": "H6kt5a7DXu7CU7bb7gYoTg==",
+      "stac_dir": "raster/Traffic",
+      "path_parts": [
+        "raster",
+        "Traffic"
+      ]
+    },
+    {
+      "name": "copper_concentration_ug_per_L",
+      "filename": "raster/copper_concentration_ug_per_L/copper_concentration_ug_per_L.tif",
+      "url": "https://storage.googleapis.com/swhm-stac-data/raster/copper_concentration_ug_per_L/copper_concentration_ug_per_L.tif",
+      "type": "raster",
+      "format": "GeoTIFF",
+      "size_bytes": 8159008104,
+      "content_type": "image/tiff",
+      "created": "2025-07-03T21:25:22.841000+00:00",
+      "updated": "2025-07-03T21:25:22.841000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730770",
+      "etag": "CKuq8Z7QoY4DEAE=",
+      "md5_hash": null,
+      "stac_dir": "raster/copper_concentration_ug_per_L",
+      "path_parts": [
+        "raster",
+        "copper_concentration_ug_per_L"
+      ]
+    },
+    {
+      "name": "City_Boundaries",
+      "filename": "vector/City_Boundaries/City_Boundaries.geojson",
+      "url": "https://storage.googleapis.com/swhm-stac-data/vector/City_Boundaries/City_Boundaries.geojson",
+      "type": "vector",
+      "format": "GeoJSON",
+      "size_bytes": 6623083,
+      "content_type": "application/geo+json",
+      "created": "2025-07-04T00:17:37.323000+00:00",
+      "updated": "2025-07-04T00:17:37.323000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730849",
+      "etag": "CP2o9972oY4DEAE=",
+      "md5_hash": "KOTrD2UyR+qCekLtRgq6rA==",
+      "stac_dir": "vector/City_Boundaries",
+      "path_parts": [
+        "vector",
+        "City_Boundaries"
+      ]
+    },
+    {
+      "name": "County_Boundaries",
+      "filename": "vector/County_Boundaries/County_Boundaries.geojson",
+      "url": "https://storage.googleapis.com/swhm-stac-data/vector/County_Boundaries/County_Boundaries.geojson",
+      "type": "vector",
+      "format": "GeoJSON",
+      "size_bytes": 3223628,
+      "content_type": "application/geo+json",
+      "created": "2025-07-04T00:17:14.419000+00:00",
+      "updated": "2025-07-04T00:17:14.419000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730922",
+      "etag": "CI3Rg9T2oY4DEAE=",
+      "md5_hash": "v4MigTsOZZmC3Enm/IaRag==",
+      "stac_dir": "vector/County_Boundaries",
+      "path_parts": [
+        "vector",
+        "County_Boundaries"
+      ]
+    },
+    {
+      "name": "Ecology_Water_Resource_Inventory_Area__WRIA_",
+      "filename": "vector/Ecology_Water_Resource_Inventory_Area__WRIA_/Ecology_Water_Resource_Inventory_Area__WRIA_.geojson",
+      "url": "https://storage.googleapis.com/swhm-stac-data/vector/Ecology_Water_Resource_Inventory_Area__WRIA_/Ecology_Water_Resource_Inventory_Area__WRIA_.geojson",
+      "type": "vector",
+      "format": "GeoJSON",
+      "size_bytes": 4665557,
+      "content_type": "application/geo+json",
+      "created": "2025-07-04T00:17:37.571000+00:00",
+      "updated": "2025-07-04T00:17:37.571000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.730993",
+      "etag": "CPLRiN/2oY4DEAE=",
+      "md5_hash": "5RzuamDDGD9e33r4C+pAOg==",
+      "stac_dir": "vector/Ecology_Water_Resource_Inventory_Area__WRIA_",
+      "path_parts": [
+        "vector",
+        "Ecology_Water_Resource_Inventory_Area__WRIA_"
+      ]
+    },
+    {
+      "name": "HUC08__USGS_Watershed_Boundary_Dataset",
+      "filename": "vector/HUC08__USGS_Watershed_Boundary_Dataset/HUC08__USGS_Watershed_Boundary_Dataset.geojson",
+      "url": "https://storage.googleapis.com/swhm-stac-data/vector/HUC08__USGS_Watershed_Boundary_Dataset/HUC08__USGS_Watershed_Boundary_Dataset.geojson",
+      "type": "vector",
+      "format": "GeoJSON",
+      "size_bytes": 13093768,
+      "content_type": "application/geo+json",
+      "created": "2025-07-04T00:17:16.427000+00:00",
+      "updated": "2025-07-04T00:17:16.427000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.731191",
+      "etag": "CPLw+9T2oY4DEAE=",
+      "md5_hash": "a5TRytJkZkrFfWGrkX7VVg==",
+      "stac_dir": "vector/HUC08__USGS_Watershed_Boundary_Dataset",
+      "path_parts": [
+        "vector",
+        "HUC08__USGS_Watershed_Boundary_Dataset"
+      ]
+    },
+    {
+      "name": "HUC10__USGS_Watershed_Boundary_Dataset",
+      "filename": "vector/HUC10__USGS_Watershed_Boundary_Dataset/HUC10__USGS_Watershed_Boundary_Dataset.geojson",
+      "url": "https://storage.googleapis.com/swhm-stac-data/vector/HUC10__USGS_Watershed_Boundary_Dataset/HUC10__USGS_Watershed_Boundary_Dataset.geojson",
+      "type": "vector",
+      "format": "GeoJSON",
+      "size_bytes": 38077963,
+      "content_type": "application/geo+json",
+      "created": "2025-07-04T00:17:23.435000+00:00",
+      "updated": "2025-07-04T00:17:23.435000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.731316",
+      "etag": "CLOYqtj2oY4DEAE=",
+      "md5_hash": "7Huip3zwBKmQ6V1wm+bwNw==",
+      "stac_dir": "vector/HUC10__USGS_Watershed_Boundary_Dataset",
+      "path_parts": [
+        "vector",
+        "HUC10__USGS_Watershed_Boundary_Dataset"
+      ]
+    },
+    {
+      "name": "HUC12__USGS_Watershed_Boundary_Dataset",
+      "filename": "vector/HUC12__USGS_Watershed_Boundary_Dataset/HUC12__USGS_Watershed_Boundary_Dataset.geojson",
+      "url": "https://storage.googleapis.com/swhm-stac-data/vector/HUC12__USGS_Watershed_Boundary_Dataset/HUC12__USGS_Watershed_Boundary_Dataset.geojson",
+      "type": "vector",
+      "format": "GeoJSON",
+      "size_bytes": 31990542,
+      "content_type": "application/geo+json",
+      "created": "2025-07-04T00:17:20.789000+00:00",
+      "updated": "2025-07-04T00:17:20.789000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.731409",
+      "etag": "CPyuiNf2oY4DEAE=",
+      "md5_hash": "gvKTD94zHTVOaEuBTMbUAQ==",
+      "stac_dir": "vector/HUC12__USGS_Watershed_Boundary_Dataset",
+      "path_parts": [
+        "vector",
+        "HUC12__USGS_Watershed_Boundary_Dataset"
+      ]
+    },
+    {
+      "name": "NHDPlus_High_Resolution_Watershed_Dataset",
+      "filename": "vector/NHDPlus_High_Resolution_Watershed_Dataset/NHDPlus_High_Resolution_Watershed_Dataset.geojson",
+      "url": "https://storage.googleapis.com/swhm-stac-data/vector/NHDPlus_High_Resolution_Watershed_Dataset/NHDPlus_High_Resolution_Watershed_Dataset.geojson",
+      "type": "vector",
+      "format": "GeoJSON",
+      "size_bytes": 93458073,
+      "content_type": "application/geo+json",
+      "created": "2025-07-04T00:17:44.200000+00:00",
+      "updated": "2025-07-04T00:17:44.200000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.731485",
+      "etag": "CNbHneL2oY4DEAE=",
+      "md5_hash": "BMHoecxbLwnctFaSiapeeQ==",
+      "stac_dir": "vector/NHDPlus_High_Resolution_Watershed_Dataset",
+      "path_parts": [
+        "vector",
+        "NHDPlus_High_Resolution_Watershed_Dataset"
+      ]
+    },
+    {
+      "name": "PugetSoundWA",
+      "filename": "vector/PugetSoundWA/PugetSoundWA.geojson",
+      "url": "https://storage.googleapis.com/swhm-stac-data/vector/PugetSoundWA/PugetSoundWA.geojson",
+      "type": "vector",
+      "format": "GeoJSON",
+      "size_bytes": 1532246,
+      "content_type": "application/geo+json",
+      "created": "2025-07-03T21:15:10.751000+00:00",
+      "updated": "2025-07-03T21:15:10.751000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.731557",
+      "etag": "CLrnmvvNoY4DEAE=",
+      "md5_hash": "hwh3Z4n83TKJDjiixjSBxA==",
+      "stac_dir": "vector/PugetSoundWA",
+      "path_parts": [
+        "vector",
+        "PugetSoundWA"
+      ]
+    },
+    {
+      "name": "Puget_Sound_Assessment_Units",
+      "filename": "vector/Puget_Sound_Assessment_Units/Puget_Sound_Assessment_Units.geojson",
+      "url": "https://storage.googleapis.com/swhm-stac-data/vector/Puget_Sound_Assessment_Units/Puget_Sound_Assessment_Units.geojson",
+      "type": "vector",
+      "format": "GeoJSON",
+      "size_bytes": 48188793,
+      "content_type": "application/geo+json",
+      "created": "2025-07-04T00:18:13.854000+00:00",
+      "updated": "2025-07-04T00:18:13.854000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.731640",
+      "etag": "CLzCr/D2oY4DEAE=",
+      "md5_hash": "Pl/v7bCLzJ+qUo4aeI/85w==",
+      "stac_dir": "vector/Puget_Sound_Assessment_Units",
+      "path_parts": [
+        "vector",
+        "Puget_Sound_Assessment_Units"
+      ]
+    },
+    {
+      "name": "cig_grid_wgs",
+      "filename": "vector/cig_grid_wgs/cig_grid_wgs.geojson",
+      "url": "https://storage.googleapis.com/swhm-stac-data/vector/cig_grid_wgs/cig_grid_wgs.geojson",
+      "type": "vector",
+      "format": "GeoJSON",
+      "size_bytes": 473161,
+      "content_type": "application/geo+json",
+      "created": "2025-07-03T21:15:12.042000+00:00",
+      "updated": "2025-07-03T21:15:12.042000+00:00",
+      "discovered_at": "2025-07-03T17:31:05.731714",
+      "etag": "CNnU6fvNoY4DEAE=",
+      "md5_hash": "zB7rQgb8wU+b9MAFGcmgsg==",
+      "stac_dir": "vector/cig_grid_wgs",
+      "path_parts": [
+        "vector",
+        "cig_grid_wgs"
+      ]
+    }
+  ],
+  "directory_structure": {
+    "raster": {
+      "type": "collection",
+      "name": "raster",
+      "path": "raster",
+      "children": {},
+      "items": [
+        {
+          "name": "Age_of_Imperviousness",
+          "filename": "raster/Age_of_Imperviousness/Age_of_Imperviousness.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Age_of_Imperviousness/Age_of_Imperviousness.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 11861750,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:21:35.547000+00:00",
+          "updated": "2025-07-03T21:21:35.547000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.729154",
+          "etag": "CKTz2LLPoY4DEAE=",
+          "md5_hash": "LPPLq3xaCtJfgHfL9rlVkQ==",
+          "stac_dir": "raster/Age_of_Imperviousness",
+          "path_parts": [
+            "raster",
+            "Age_of_Imperviousness"
+          ]
+        },
+        {
+          "name": "Flow_Duration_Index",
+          "filename": "raster/Flow_Duration_Index/Flow_Duration_Index.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Flow_Duration_Index/Flow_Duration_Index.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 2462802183,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:22:40.164000+00:00",
+          "updated": "2025-07-03T21:22:40.164000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.729303",
+          "etag": "CI+2uNHPoY4DEAE=",
+          "md5_hash": "FU76chTVAYkh+aspkIvnlQ==",
+          "stac_dir": "raster/Flow_Duration_Index",
+          "path_parts": [
+            "raster",
+            "Flow_Duration_Index"
+          ]
+        },
+        {
+          "name": "HSPF_Land_Cover_Type",
+          "filename": "raster/HSPF_Land_Cover_Type/HSPF_Land_Cover_Type.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/HSPF_Land_Cover_Type/HSPF_Land_Cover_Type.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 789553258,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:21:58.391000+00:00",
+          "updated": "2025-07-03T21:21:58.391000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.729392",
+          "etag": "CIHrxr3PoY4DEAE=",
+          "md5_hash": null,
+          "stac_dir": "raster/HSPF_Land_Cover_Type",
+          "path_parts": [
+            "raster",
+            "HSPF_Land_Cover_Type"
+          ]
+        },
+        {
+          "name": "Hydrologic_Response_Units",
+          "filename": "raster/Hydrologic_Response_Units/Hydrologic_Response_Units.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Hydrologic_Response_Units/Hydrologic_Response_Units.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 1067170878,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:22:06.094000+00:00",
+          "updated": "2025-07-03T21:22:06.094000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.729469",
+          "etag": "CIeym8HPoY4DEAE=",
+          "md5_hash": null,
+          "stac_dir": "raster/Hydrologic_Response_Units",
+          "path_parts": [
+            "raster",
+            "Hydrologic_Response_Units"
+          ]
+        },
+        {
+          "name": "Imperviousness",
+          "filename": "raster/Imperviousness/Imperviousness.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Imperviousness/Imperviousness.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 14816117190,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:28:49.623000+00:00",
+          "updated": "2025-07-03T21:28:49.623000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.729542",
+          "etag": "CPu8w4HRoY4DEAE=",
+          "md5_hash": null,
+          "stac_dir": "raster/Imperviousness",
+          "path_parts": [
+            "raster",
+            "Imperviousness"
+          ]
+        },
+        {
+          "name": "Land_Cover",
+          "filename": "raster/Land_Cover/Land_Cover.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Land_Cover/Land_Cover.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 2603697773,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:22:49.290000+00:00",
+          "updated": "2025-07-03T21:22:49.290000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.729614",
+          "etag": "COfr5dXPoY4DEAE=",
+          "md5_hash": null,
+          "stac_dir": "raster/Land_Cover",
+          "path_parts": [
+            "raster",
+            "Land_Cover"
+          ]
+        },
+        {
+          "name": "Land_Use",
+          "filename": "raster/Land_Use/Land_Use.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Land_Use/Land_Use.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 292776614,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:21:39.802000+00:00",
+          "updated": "2025-07-03T21:21:39.802000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.729689",
+          "etag": "COPC27TPoY4DEAE=",
+          "md5_hash": "NiT/WuZVgTQgu/DNktpeAg==",
+          "stac_dir": "raster/Land_Use",
+          "path_parts": [
+            "raster",
+            "Land_Use"
+          ]
+        },
+        {
+          "name": "Population_Density",
+          "filename": "raster/Population_Density/Population_Density.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Population_Density/Population_Density.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 11961723,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:21:35.733000+00:00",
+          "updated": "2025-07-03T21:21:35.733000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.729762",
+          "etag": "CICq5LLPoY4DEAE=",
+          "md5_hash": "SStpcZl0ieyOQ3fu96U8tg==",
+          "stac_dir": "raster/Population_Density",
+          "path_parts": [
+            "raster",
+            "Population_Density"
+          ]
+        },
+        {
+          "name": "Precipitation_mm",
+          "filename": "raster/Precipitation_mm/Precipitation_mm.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Precipitation_mm/Precipitation_mm.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 184853,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:21:35.375000+00:00",
+          "updated": "2025-07-03T21:21:35.375000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.729830",
+          "etag": "COrzzbLPoY4DEAE=",
+          "md5_hash": "SdfJ3o+QTi3Q9zVyUnB3eg==",
+          "stac_dir": "raster/Precipitation_mm",
+          "path_parts": [
+            "raster",
+            "Precipitation_mm"
+          ]
+        },
+        {
+          "name": "Runoff_mm",
+          "filename": "raster/Runoff_mm/Runoff_mm.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Runoff_mm/Runoff_mm.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 5723145271,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:24:21.519000+00:00",
+          "updated": "2025-07-03T21:24:21.519000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.729898",
+          "etag": "CK+Q14HQoY4DEAE=",
+          "md5_hash": "Z0XYBnipMVrt4VKCqxTD/w==",
+          "stac_dir": "raster/Runoff_mm",
+          "path_parts": [
+            "raster",
+            "Runoff_mm"
+          ]
+        },
+        {
+          "name": "Slope",
+          "filename": "raster/Slope/Slope.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Slope/Slope.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 9657033234,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:26:28.835000+00:00",
+          "updated": "2025-07-03T21:26:28.835000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.729968",
+          "etag": "CNGPtb7QoY4DEAE=",
+          "md5_hash": "ESdu/Mz2Bx1y5owE/DzY4Q==",
+          "stac_dir": "raster/Slope",
+          "path_parts": [
+            "raster",
+            "Slope"
+          ]
+        },
+        {
+          "name": "Slope_Categories",
+          "filename": "raster/Slope_Categories/Slope_Categories.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Slope_Categories/Slope_Categories.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 1162360741,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:22:04.111000+00:00",
+          "updated": "2025-07-03T21:22:04.111000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730040",
+          "etag": "CJO8ocDPoY4DEAE=",
+          "md5_hash": "14rJoVBBo6xBaDiF0JJ0dg==",
+          "stac_dir": "raster/Slope_Categories",
+          "path_parts": [
+            "raster",
+            "Slope_Categories"
+          ]
+        },
+        {
+          "name": "Soils",
+          "filename": "raster/Soils/Soils.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Soils/Soils.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 377864655,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:21:47.407000+00:00",
+          "updated": "2025-07-03T21:21:47.407000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730108",
+          "etag": "CJy6q7jPoY4DEAE=",
+          "md5_hash": null,
+          "stac_dir": "raster/Soils",
+          "path_parts": [
+            "raster",
+            "Soils"
+          ]
+        },
+        {
+          "name": "Total_Copper_Concentration",
+          "filename": "raster/Total_Copper_Concentration/Total_Copper_Concentration.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Copper_Concentration/Total_Copper_Concentration.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 1751254482,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:22:30.105000+00:00",
+          "updated": "2025-07-03T21:22:30.105000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730175",
+          "etag": "CM+Q18zPoY4DEAE=",
+          "md5_hash": "R6DPd2H6mue/Ccl5ox5yQw==",
+          "stac_dir": "raster/Total_Copper_Concentration",
+          "path_parts": [
+            "raster",
+            "Total_Copper_Concentration"
+          ]
+        },
+        {
+          "name": "Total_Kjeldahl_Nitrogen_Concentration",
+          "filename": "raster/Total_Kjeldahl_Nitrogen_Concentration/Total_Kjeldahl_Nitrogen_Concentration.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Kjeldahl_Nitrogen_Concentration/Total_Kjeldahl_Nitrogen_Concentration.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 1167714752,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:22:12.790000+00:00",
+          "updated": "2025-07-03T21:22:12.790000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730244",
+          "etag": "CKTwtMTPoY4DEAE=",
+          "md5_hash": "v/UFLQRzhK9m0vLn5SrFGg==",
+          "stac_dir": "raster/Total_Kjeldahl_Nitrogen_Concentration",
+          "path_parts": [
+            "raster",
+            "Total_Kjeldahl_Nitrogen_Concentration"
+          ]
+        },
+        {
+          "name": "Total_Phosphorus_Concentration",
+          "filename": "raster/Total_Phosphorus_Concentration/Total_Phosphorus_Concentration.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Phosphorus_Concentration/Total_Phosphorus_Concentration.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 1750395809,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:22:20.149000+00:00",
+          "updated": "2025-07-03T21:22:20.149000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730317",
+          "etag": "CKWi88fPoY4DEAE=",
+          "md5_hash": "t4UNBqzoMt/G0+35LYsbBA==",
+          "stac_dir": "raster/Total_Phosphorus_Concentration",
+          "path_parts": [
+            "raster",
+            "Total_Phosphorus_Concentration"
+          ]
+        },
+        {
+          "name": "Total_Suspended_Solids_Concentration",
+          "filename": "raster/Total_Suspended_Solids_Concentration/Total_Suspended_Solids_Concentration.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Suspended_Solids_Concentration/Total_Suspended_Solids_Concentration.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 1185797094,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:22:08.298000+00:00",
+          "updated": "2025-07-03T21:22:08.298000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730446",
+          "etag": "CKTXoMLPoY4DEAE=",
+          "md5_hash": "9nibBDGImHP+Bf2tWtwu0w==",
+          "stac_dir": "raster/Total_Suspended_Solids_Concentration",
+          "path_parts": [
+            "raster",
+            "Total_Suspended_Solids_Concentration"
+          ]
+        },
+        {
+          "name": "Total_Zinc_Concentration",
+          "filename": "raster/Total_Zinc_Concentration/Total_Zinc_Concentration.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Total_Zinc_Concentration/Total_Zinc_Concentration.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 1335807449,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:22:09.806000+00:00",
+          "updated": "2025-07-03T21:22:09.806000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730585",
+          "etag": "CK3O/cLPoY4DEAE=",
+          "md5_hash": "gEaKk/f+l5bm73JpdLbEOQ==",
+          "stac_dir": "raster/Total_Zinc_Concentration",
+          "path_parts": [
+            "raster",
+            "Total_Zinc_Concentration"
+          ]
+        },
+        {
+          "name": "Traffic",
+          "filename": "raster/Traffic/Traffic.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/Traffic/Traffic.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 2055252928,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:22:28.936000+00:00",
+          "updated": "2025-07-03T21:22:28.936000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730677",
+          "etag": "CNa9iczPoY4DEAE=",
+          "md5_hash": "H6kt5a7DXu7CU7bb7gYoTg==",
+          "stac_dir": "raster/Traffic",
+          "path_parts": [
+            "raster",
+            "Traffic"
+          ]
+        },
+        {
+          "name": "copper_concentration_ug_per_L",
+          "filename": "raster/copper_concentration_ug_per_L/copper_concentration_ug_per_L.tif",
+          "url": "https://storage.googleapis.com/swhm-stac-data/raster/copper_concentration_ug_per_L/copper_concentration_ug_per_L.tif",
+          "type": "raster",
+          "format": "GeoTIFF",
+          "size_bytes": 8159008104,
+          "content_type": "image/tiff",
+          "created": "2025-07-03T21:25:22.841000+00:00",
+          "updated": "2025-07-03T21:25:22.841000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730770",
+          "etag": "CKuq8Z7QoY4DEAE=",
+          "md5_hash": null,
+          "stac_dir": "raster/copper_concentration_ug_per_L",
+          "path_parts": [
+            "raster",
+            "copper_concentration_ug_per_L"
+          ]
+        }
+      ]
+    },
+    "vector": {
+      "type": "collection",
+      "name": "vector",
+      "path": "vector",
+      "children": {},
+      "items": [
+        {
+          "name": "City_Boundaries",
+          "filename": "vector/City_Boundaries/City_Boundaries.geojson",
+          "url": "https://storage.googleapis.com/swhm-stac-data/vector/City_Boundaries/City_Boundaries.geojson",
+          "type": "vector",
+          "format": "GeoJSON",
+          "size_bytes": 6623083,
+          "content_type": "application/geo+json",
+          "created": "2025-07-04T00:17:37.323000+00:00",
+          "updated": "2025-07-04T00:17:37.323000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730849",
+          "etag": "CP2o9972oY4DEAE=",
+          "md5_hash": "KOTrD2UyR+qCekLtRgq6rA==",
+          "stac_dir": "vector/City_Boundaries",
+          "path_parts": [
+            "vector",
+            "City_Boundaries"
+          ]
+        },
+        {
+          "name": "County_Boundaries",
+          "filename": "vector/County_Boundaries/County_Boundaries.geojson",
+          "url": "https://storage.googleapis.com/swhm-stac-data/vector/County_Boundaries/County_Boundaries.geojson",
+          "type": "vector",
+          "format": "GeoJSON",
+          "size_bytes": 3223628,
+          "content_type": "application/geo+json",
+          "created": "2025-07-04T00:17:14.419000+00:00",
+          "updated": "2025-07-04T00:17:14.419000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730922",
+          "etag": "CI3Rg9T2oY4DEAE=",
+          "md5_hash": "v4MigTsOZZmC3Enm/IaRag==",
+          "stac_dir": "vector/County_Boundaries",
+          "path_parts": [
+            "vector",
+            "County_Boundaries"
+          ]
+        },
+        {
+          "name": "Ecology_Water_Resource_Inventory_Area__WRIA_",
+          "filename": "vector/Ecology_Water_Resource_Inventory_Area__WRIA_/Ecology_Water_Resource_Inventory_Area__WRIA_.geojson",
+          "url": "https://storage.googleapis.com/swhm-stac-data/vector/Ecology_Water_Resource_Inventory_Area__WRIA_/Ecology_Water_Resource_Inventory_Area__WRIA_.geojson",
+          "type": "vector",
+          "format": "GeoJSON",
+          "size_bytes": 4665557,
+          "content_type": "application/geo+json",
+          "created": "2025-07-04T00:17:37.571000+00:00",
+          "updated": "2025-07-04T00:17:37.571000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.730993",
+          "etag": "CPLRiN/2oY4DEAE=",
+          "md5_hash": "5RzuamDDGD9e33r4C+pAOg==",
+          "stac_dir": "vector/Ecology_Water_Resource_Inventory_Area__WRIA_",
+          "path_parts": [
+            "vector",
+            "Ecology_Water_Resource_Inventory_Area__WRIA_"
+          ]
+        },
+        {
+          "name": "HUC08__USGS_Watershed_Boundary_Dataset",
+          "filename": "vector/HUC08__USGS_Watershed_Boundary_Dataset/HUC08__USGS_Watershed_Boundary_Dataset.geojson",
+          "url": "https://storage.googleapis.com/swhm-stac-data/vector/HUC08__USGS_Watershed_Boundary_Dataset/HUC08__USGS_Watershed_Boundary_Dataset.geojson",
+          "type": "vector",
+          "format": "GeoJSON",
+          "size_bytes": 13093768,
+          "content_type": "application/geo+json",
+          "created": "2025-07-04T00:17:16.427000+00:00",
+          "updated": "2025-07-04T00:17:16.427000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.731191",
+          "etag": "CPLw+9T2oY4DEAE=",
+          "md5_hash": "a5TRytJkZkrFfWGrkX7VVg==",
+          "stac_dir": "vector/HUC08__USGS_Watershed_Boundary_Dataset",
+          "path_parts": [
+            "vector",
+            "HUC08__USGS_Watershed_Boundary_Dataset"
+          ]
+        },
+        {
+          "name": "HUC10__USGS_Watershed_Boundary_Dataset",
+          "filename": "vector/HUC10__USGS_Watershed_Boundary_Dataset/HUC10__USGS_Watershed_Boundary_Dataset.geojson",
+          "url": "https://storage.googleapis.com/swhm-stac-data/vector/HUC10__USGS_Watershed_Boundary_Dataset/HUC10__USGS_Watershed_Boundary_Dataset.geojson",
+          "type": "vector",
+          "format": "GeoJSON",
+          "size_bytes": 38077963,
+          "content_type": "application/geo+json",
+          "created": "2025-07-04T00:17:23.435000+00:00",
+          "updated": "2025-07-04T00:17:23.435000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.731316",
+          "etag": "CLOYqtj2oY4DEAE=",
+          "md5_hash": "7Huip3zwBKmQ6V1wm+bwNw==",
+          "stac_dir": "vector/HUC10__USGS_Watershed_Boundary_Dataset",
+          "path_parts": [
+            "vector",
+            "HUC10__USGS_Watershed_Boundary_Dataset"
+          ]
+        },
+        {
+          "name": "HUC12__USGS_Watershed_Boundary_Dataset",
+          "filename": "vector/HUC12__USGS_Watershed_Boundary_Dataset/HUC12__USGS_Watershed_Boundary_Dataset.geojson",
+          "url": "https://storage.googleapis.com/swhm-stac-data/vector/HUC12__USGS_Watershed_Boundary_Dataset/HUC12__USGS_Watershed_Boundary_Dataset.geojson",
+          "type": "vector",
+          "format": "GeoJSON",
+          "size_bytes": 31990542,
+          "content_type": "application/geo+json",
+          "created": "2025-07-04T00:17:20.789000+00:00",
+          "updated": "2025-07-04T00:17:20.789000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.731409",
+          "etag": "CPyuiNf2oY4DEAE=",
+          "md5_hash": "gvKTD94zHTVOaEuBTMbUAQ==",
+          "stac_dir": "vector/HUC12__USGS_Watershed_Boundary_Dataset",
+          "path_parts": [
+            "vector",
+            "HUC12__USGS_Watershed_Boundary_Dataset"
+          ]
+        },
+        {
+          "name": "NHDPlus_High_Resolution_Watershed_Dataset",
+          "filename": "vector/NHDPlus_High_Resolution_Watershed_Dataset/NHDPlus_High_Resolution_Watershed_Dataset.geojson",
+          "url": "https://storage.googleapis.com/swhm-stac-data/vector/NHDPlus_High_Resolution_Watershed_Dataset/NHDPlus_High_Resolution_Watershed_Dataset.geojson",
+          "type": "vector",
+          "format": "GeoJSON",
+          "size_bytes": 93458073,
+          "content_type": "application/geo+json",
+          "created": "2025-07-04T00:17:44.200000+00:00",
+          "updated": "2025-07-04T00:17:44.200000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.731485",
+          "etag": "CNbHneL2oY4DEAE=",
+          "md5_hash": "BMHoecxbLwnctFaSiapeeQ==",
+          "stac_dir": "vector/NHDPlus_High_Resolution_Watershed_Dataset",
+          "path_parts": [
+            "vector",
+            "NHDPlus_High_Resolution_Watershed_Dataset"
+          ]
+        },
+        {
+          "name": "PugetSoundWA",
+          "filename": "vector/PugetSoundWA/PugetSoundWA.geojson",
+          "url": "https://storage.googleapis.com/swhm-stac-data/vector/PugetSoundWA/PugetSoundWA.geojson",
+          "type": "vector",
+          "format": "GeoJSON",
+          "size_bytes": 1532246,
+          "content_type": "application/geo+json",
+          "created": "2025-07-03T21:15:10.751000+00:00",
+          "updated": "2025-07-03T21:15:10.751000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.731557",
+          "etag": "CLrnmvvNoY4DEAE=",
+          "md5_hash": "hwh3Z4n83TKJDjiixjSBxA==",
+          "stac_dir": "vector/PugetSoundWA",
+          "path_parts": [
+            "vector",
+            "PugetSoundWA"
+          ]
+        },
+        {
+          "name": "Puget_Sound_Assessment_Units",
+          "filename": "vector/Puget_Sound_Assessment_Units/Puget_Sound_Assessment_Units.geojson",
+          "url": "https://storage.googleapis.com/swhm-stac-data/vector/Puget_Sound_Assessment_Units/Puget_Sound_Assessment_Units.geojson",
+          "type": "vector",
+          "format": "GeoJSON",
+          "size_bytes": 48188793,
+          "content_type": "application/geo+json",
+          "created": "2025-07-04T00:18:13.854000+00:00",
+          "updated": "2025-07-04T00:18:13.854000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.731640",
+          "etag": "CLzCr/D2oY4DEAE=",
+          "md5_hash": "Pl/v7bCLzJ+qUo4aeI/85w==",
+          "stac_dir": "vector/Puget_Sound_Assessment_Units",
+          "path_parts": [
+            "vector",
+            "Puget_Sound_Assessment_Units"
+          ]
+        },
+        {
+          "name": "cig_grid_wgs",
+          "filename": "vector/cig_grid_wgs/cig_grid_wgs.geojson",
+          "url": "https://storage.googleapis.com/swhm-stac-data/vector/cig_grid_wgs/cig_grid_wgs.geojson",
+          "type": "vector",
+          "format": "GeoJSON",
+          "size_bytes": 473161,
+          "content_type": "application/geo+json",
+          "created": "2025-07-03T21:15:12.042000+00:00",
+          "updated": "2025-07-03T21:15:12.042000+00:00",
+          "discovered_at": "2025-07-03T17:31:05.731714",
+          "etag": "CNnU6fvNoY4DEAE=",
+          "md5_hash": "zB7rQgb8wU+b9MAFGcmgsg==",
+          "stac_dir": "vector/cig_grid_wgs",
+          "path_parts": [
+            "vector",
+            "cig_grid_wgs"
+          ]
+        }
+      ]
+    }
+  },
+  "stac_structure": {
+    "catalog": "catalog/catalog.json",
+    "collections": [
+      "catalog/raster/collection.json",
+      "catalog/vector/collection.json"
+    ],
+    "items": [
+      "catalog/raster/Age_of_Imperviousness/Age_of_Imperviousness.json",
+      "catalog/raster/Flow_Duration_Index/Flow_Duration_Index.json",
+      "catalog/raster/HSPF_Land_Cover_Type/HSPF_Land_Cover_Type.json",
+      "catalog/raster/Hydrologic_Response_Units/Hydrologic_Response_Units.json",
+      "catalog/raster/Imperviousness/Imperviousness.json",
+      "catalog/raster/Land_Cover/Land_Cover.json",
+      "catalog/raster/Land_Use/Land_Use.json",
+      "catalog/raster/Population_Density/Population_Density.json",
+      "catalog/raster/Precipitation_mm/Precipitation_mm.json",
+      "catalog/raster/Runoff_mm/Runoff_mm.json",
+      "catalog/raster/Slope/Slope.json",
+      "catalog/raster/Slope_Categories/Slope_Categories.json",
+      "catalog/raster/Soils/Soils.json",
+      "catalog/raster/Total_Copper_Concentration/Total_Copper_Concentration.json",
+      "catalog/raster/Total_Kjeldahl_Nitrogen_Concentration/Total_Kjeldahl_Nitrogen_Concentration.json",
+      "catalog/raster/Total_Phosphorus_Concentration/Total_Phosphorus_Concentration.json",
+      "catalog/raster/Total_Suspended_Solids_Concentration/Total_Suspended_Solids_Concentration.json",
+      "catalog/raster/Total_Zinc_Concentration/Total_Zinc_Concentration.json",
+      "catalog/raster/Traffic/Traffic.json",
+      "catalog/raster/copper_concentration_ug_per_L/copper_concentration_ug_per_L.json",
+      "catalog/vector/City_Boundaries/City_Boundaries.json",
+      "catalog/vector/County_Boundaries/County_Boundaries.json",
+      "catalog/vector/Ecology_Water_Resource_Inventory_Area__WRIA_/Ecology_Water_Resource_Inventory_Area__WRIA_.json",
+      "catalog/vector/HUC08__USGS_Watershed_Boundary_Dataset/HUC08__USGS_Watershed_Boundary_Dataset.json",
+      "catalog/vector/HUC10__USGS_Watershed_Boundary_Dataset/HUC10__USGS_Watershed_Boundary_Dataset.json",
+      "catalog/vector/HUC12__USGS_Watershed_Boundary_Dataset/HUC12__USGS_Watershed_Boundary_Dataset.json",
+      "catalog/vector/NHDPlus_High_Resolution_Watershed_Dataset/NHDPlus_High_Resolution_Watershed_Dataset.json",
+      "catalog/vector/PugetSoundWA/PugetSoundWA.json",
+      "catalog/vector/Puget_Sound_Assessment_Units/Puget_Sound_Assessment_Units.json",
+      "catalog/vector/cig_grid_wgs/cig_grid_wgs.json"
+    ]
+  }
+}

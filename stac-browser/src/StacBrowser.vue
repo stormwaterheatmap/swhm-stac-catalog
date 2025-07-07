@@ -10,13 +10,7 @@
     </header>
     <!-- Content (Item / Catalog) -->
     <router-view />
-    <footer>
-      <i18n tag="small" path="poweredBy" class="poweredby text-muted">
-        <template #link>
-          <a href="https://github.com/radiantearth/stac-browser" target="_blank">STAC Browser</a> {{ browserVersion }}
-        </template>
-      </i18n>
-    </footer>
+
   </b-container>
 </template>
 
@@ -27,6 +21,7 @@ import Vuex, { mapActions, mapGetters, mapState } from 'vuex';
 import CONFIG from './config';
 import getRoutes from "./router";
 import getStore from "./store";
+import Hero from './components/Hero.vue' 
 
 import {
   AlertPlugin, BadgePlugin, ButtonGroupPlugin, ButtonPlugin,
@@ -105,7 +100,8 @@ export default {
     Authentication,
     ErrorAlert,
     Sidebar: () => import('./components/Sidebar.vue'),
-    StacHeader
+    StacHeader, 
+    Hero
   },
   props: {
     ...Props

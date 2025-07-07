@@ -1,0 +1,51 @@
+{
+  "type": "Catalog",
+  "catalog_type": "Published_Absolute",
+  "stac_version": "1.0.0",
+  "id": "swhm-data-catalog",
+  "title": "SWHM Data Catalog",
+  "description": "Master catalog for SWHM vector and raster datasets",
+  "created": "2025-07-03T11:43:09.980587",
+  "updated": "2025-07-03T11:43:09.980591",
+  "keywords": [
+    "swhm",
+    "vector",
+    "raster",
+    "geospatial"
+  ],
+  "providers": [
+    {
+      "name": "SWHM Data",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://storage.googleapis.com/swhm_data/"
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/catalog.json",
+      "type": "application/json",
+      "title": "SWHM Data Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/vector/collection.json",
+      "type": "application/json",
+      "title": "Vector Collection"
+    },
+    {
+      "rel": "child",
+      "href": "https://storage.googleapis.com/swhm_data/public/layers/raster/collection.json",
+      "type": "application/json",
+      "title": "Raster Collection"
+    }
+  ],
+  "conformsTo": [
+    "https://api.stacspec.org/v1.0.0/core",
+    "https://api.stacspec.org/v1.0.0/collections"
+  ]
+}
